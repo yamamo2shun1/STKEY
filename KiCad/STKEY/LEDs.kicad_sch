@@ -5075,7 +5075,7 @@
 		)
 		(uuid "ff661778-ca23-4294-8e63-2a6c53f5b318")
 	)
-	(global_label "PA15"
+	(global_label "RGB_LED"
 		(shape input)
 		(at 25.4 48.26 180)
 		(fields_autoplaced yes)
@@ -5087,7 +5087,7 @@
 		)
 		(uuid "669df608-ea18-44b1-a870-bcbfddee5cc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.6372 48.26 0)
+			(at 14.1901 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
