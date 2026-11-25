@@ -115,7 +115,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -273,7 +274,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -431,7 +433,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -589,7 +592,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -747,7 +751,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -905,7 +910,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 			(at 0 0 0)
@@ -1089,7 +1095,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g4a1ce.pdf"
 			(at 0 0 0)
@@ -1975,7 +1982,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2133,7 +2141,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2472,7 +2481,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2630,7 +2640,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2788,7 +2799,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3127,7 +3139,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3336,7 +3349,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3494,7 +3508,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3652,7 +3667,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3810,7 +3826,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3968,7 +3985,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4126,7 +4144,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4284,7 +4303,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4442,7 +4462,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4600,7 +4621,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4758,7 +4780,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4916,7 +4939,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -5074,7 +5098,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -5566,7 +5591,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "MIC39100-3.3WS"
 			(at 0 0 0)
@@ -6073,7 +6099,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -6926,7 +6953,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7133,7 +7161,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7409,7 +7438,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7567,7 +7597,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -8031,7 +8062,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8189,7 +8221,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8347,7 +8380,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8505,7 +8539,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8937,7 +8972,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9095,7 +9131,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9233,7 +9270,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 			(at 0 0 0)
@@ -9417,7 +9455,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9575,7 +9614,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9733,7 +9773,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9891,7 +9932,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 0)
@@ -10333,7 +10375,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -10491,7 +10534,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -10830,7 +10874,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -10988,7 +11033,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11146,7 +11192,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11304,7 +11351,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11462,7 +11510,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11693,7 +11742,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -12157,7 +12207,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -12315,7 +12366,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -12857,7 +12909,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13015,7 +13068,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13354,7 +13408,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13512,7 +13567,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13670,7 +13726,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13828,7 +13885,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14037,7 +14095,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14195,7 +14254,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14353,7 +14413,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14491,7 +14552,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14649,7 +14711,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14807,7 +14870,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15327,7 +15391,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15616,7 +15681,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15774,7 +15840,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15932,7 +15999,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16090,7 +16158,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16248,7 +16317,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16406,7 +16476,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16564,7 +16635,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16722,7 +16794,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16880,7 +16953,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -17343,7 +17417,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC"
 			(at 0 0 0)
@@ -17535,7 +17610,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18026,7 +18102,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18184,7 +18261,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18342,7 +18420,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18774,7 +18853,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18932,7 +19012,8 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -19091,7 +19172,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -19533,7 +19615,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -19697,7 +19780,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20010,7 +20094,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20323,7 +20408,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20636,7 +20722,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -20965,7 +21052,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -21277,7 +21365,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -21718,7 +21807,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -22160,7 +22250,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -22473,7 +22564,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -22785,7 +22877,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -23226,7 +23319,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -23668,7 +23762,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -23832,7 +23927,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -23995,7 +24091,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -24437,7 +24534,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -24750,7 +24848,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -25062,7 +25161,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -25504,7 +25604,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -25667,7 +25768,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -26108,7 +26210,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -26550,7 +26653,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -26714,7 +26818,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -26878,7 +26983,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -27191,7 +27297,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -27504,7 +27611,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -27667,7 +27775,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -28109,7 +28218,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -28587,7 +28697,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -28900,7 +29011,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29213,7 +29325,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29526,7 +29639,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29839,7 +29953,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -30152,7 +30267,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -30316,7 +30432,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -30628,7 +30745,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -31070,7 +31188,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -31233,7 +31352,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -31675,7 +31795,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -31837,7 +31958,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -32323,7 +32445,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -32764,7 +32887,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -33206,7 +33330,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -33518,7 +33643,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -33959,7 +34085,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -34401,7 +34528,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -34565,7 +34693,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -34877,7 +35006,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -35318,7 +35448,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -35759,7 +35890,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -36201,7 +36333,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -36364,7 +36497,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -36805,7 +36939,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -37247,7 +37382,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -37410,7 +37546,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -37852,7 +37989,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -38016,7 +38154,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -38328,7 +38467,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -38770,7 +38910,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -39083,7 +39224,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -39246,7 +39388,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -39687,7 +39830,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -40129,7 +40273,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -40293,7 +40438,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -40457,7 +40603,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -40769,7 +40916,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -41210,7 +41358,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -41652,7 +41801,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -41965,7 +42115,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -42277,7 +42428,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -42719,7 +42871,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -42883,7 +43036,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -43047,7 +43201,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -43360,7 +43515,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -43672,7 +43828,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -44113,7 +44270,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -44555,7 +44713,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -44719,7 +44878,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -45032,7 +45192,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -45196,7 +45357,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -45360,7 +45522,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -45673,7 +45836,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -45985,7 +46149,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -46427,7 +46592,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -46740,7 +46906,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -47053,7 +47220,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -47366,7 +47534,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -47530,7 +47699,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -47694,7 +47864,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -47858,7 +48029,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -48171,7 +48343,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -48335,7 +48508,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -48498,7 +48672,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -48940,7 +49115,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -49104,7 +49280,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -49267,7 +49444,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -49708,7 +49886,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -50149,7 +50328,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -50591,7 +50771,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -50904,7 +51085,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -51067,7 +51249,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -51508,7 +51691,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -51950,7 +52134,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -52263,7 +52448,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -52575,7 +52761,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -53182,7 +53369,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -53346,7 +53534,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -53510,7 +53699,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -53839,7 +54029,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -54152,7 +54343,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -54465,7 +54657,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -54629,7 +54822,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -54793,7 +54987,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -55106,7 +55301,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -55269,7 +55465,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -55710,7 +55907,8 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -56152,7 +56350,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56316,7 +56515,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56480,7 +56680,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56644,7 +56845,8 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
+			
+				(hide yes))
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
