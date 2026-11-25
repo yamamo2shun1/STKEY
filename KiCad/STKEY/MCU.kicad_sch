@@ -8560,6 +8560,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 137.16 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6488dc1a-1993-429e-825d-8dcd0c7cc905")
+		(property "Reference" "#PWR0113"
+			(at 137.16 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 135.382 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d97c1b10-1d0e-467b-a992-6df4af829b1e")
+		)
+		(instances
+			(project "STKEY"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 229.87 104.14 0)
 		(unit 1)
@@ -10923,89 +11001,6 @@
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
 					(reference "C96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 137.16 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b985d82b-ae4f-4ac5-9826-f1822ce64b04")
-		(property "Reference" "#PWR0113"
-			(at 137.16 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 137.16 28.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cba34190-a0f2-426a-b96f-e6b6ffe75b86")
-		)
-		(instances
-			(project "C4NDY"
-				(path "/868f46d4-ce7a-4a96-bb33-8a76e5eb710a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "STKEY"
-				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
