@@ -109,14 +109,14 @@
 		(property "Value" "5.1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7a010fd3-1fe1-4a27-bffc-34a8e4808e8f")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -268,14 +268,14 @@
 		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fbffb828-bfe2-464f-b1c3-73b5f95a671c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -427,14 +427,14 @@
 		(property "Value" "1uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1c577f24-c4d1-44bc-b115-b55f4e8131e6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -586,14 +586,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "086d1609-c650-499c-85bf-e8f930571744")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -745,14 +745,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1cdd98c7-061a-4512-b627-375bee26bf48")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -904,14 +904,14 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7be23d71-9cec-443b-ba44-3da8df8e1201")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 			(at 0 0 0)
@@ -1089,14 +1089,14 @@
 		(property "Value" "STM32G4A1CETx"
 			(at 0 5.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c811541d-018c-419a-9566-a1278ba7b33f")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g4a1ce.pdf"
 			(at 0 0 0)
@@ -1976,14 +1976,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3d18fd8c-b9dd-47f6-94fd-3fe5cf0cbc9c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2135,14 +2135,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d035fb66-3ad8-4297-b274-7ea450b5693d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -2458,11 +2458,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2c4ea5d9-42af-4e88-9d5d-419289d29e44")
-		(at 138.6500 116.4675)
+		(at 136.21 118.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C50"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "ac3291bb-7bd9-4a18-ad80-9dce462d40aa")
 			(effects
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d11225e-a517-4f89-8c40-61e3280b3ba6")
@@ -2482,11 +2482,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "206c4c42-1806-4576-b66c-0ed298485966")
@@ -2497,7 +2496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f776ed2e-214a-412e-b010-4215a52f9e4c")
@@ -2508,7 +2507,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2a51b9d0-abda-42de-9af6-d49a170e459a")
@@ -2532,16 +2531,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a30596bb-c14a-436b-8405-8224cedde80d")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -2550,6 +2539,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f149ab21-5d9e-4564-a36b-60b927eece49")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a30596bb-c14a-436b-8405-8224cedde80d")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -2574,7 +2573,7 @@
 			(uuid "c1bab893-5cc6-426c-aa3a-6b5b18608f34")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3a2538c7-9853-4062-925b-042f14040752")
 			(effects
@@ -2585,7 +2584,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2594,7 +2593,7 @@
 			(uuid "ea6358e5-0fa8-4e53-bc85-8c5fe74162a6")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2618,11 +2617,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2ff1c1e1-62d5-4903-adf4-188a973adde1")
-		(at 157.6500 78.4675)
+		(at 155.21 80.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C47"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "52c15f60-d079-44fe-9c3f-3450a0e85cb5")
 			(effects
@@ -2633,7 +2632,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "422d5b4f-13eb-4e7c-92f7-9bc2589aa52c")
@@ -2642,11 +2641,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "948d283b-eadf-472b-b9b7-c487f6437af7")
@@ -2657,7 +2655,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6801b66-d6ea-4f3d-8e98-d7d24f9274af")
@@ -2668,7 +2666,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6a9dad13-d7a7-4a19-ac86-1fc447c43c79")
@@ -2692,16 +2690,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bc0bdf13-94e8-491c-a121-ae8356c3c41f")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -2710,6 +2698,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "0079957e-9d5f-4212-8df5-8495697835af")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bc0bdf13-94e8-491c-a121-ae8356c3c41f")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -2734,7 +2732,7 @@
 			(uuid "1c97a467-9932-4b37-b1e3-120dffd78c29")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c8fff372-2507-4a38-acf5-ac7b77d3b4f4")
 			(effects
@@ -2745,7 +2743,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2754,7 +2752,7 @@
 			(uuid "47ac0de3-c7ee-4460-b6bd-69f402c772e7")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2795,14 +2793,14 @@
 		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "833d83c5-bc47-4ef4-93fa-4a138165cb89")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3135,14 +3133,14 @@
 		(property "Value" "LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "af059028-096f-455c-aca0-f643420722e0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3328,11 +3326,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3895c4ed-e9f6-4571-9903-81e5fa97fae1")
-		(at 157.6500 116.4675)
+		(at 155.21 118.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C51"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "17ce9c70-41c7-47e4-9bcc-95ef2707db55")
 			(effects
@@ -3343,7 +3341,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b3f40e3-9284-4879-91f6-e16e68f9aadc")
@@ -3352,11 +3350,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41911f4f-d75e-49a1-b9ff-0130e511205f")
@@ -3367,7 +3364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c7aa62b-5a5f-4444-9c58-fa8f058ed54c")
@@ -3378,7 +3375,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f151773b-4ec7-4db7-94f7-a13ad1aabd27")
@@ -3402,16 +3399,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a10178b8-584b-4069-a908-0ef340dea1e3")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -3420,6 +3407,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c4f2e923-d528-474d-b4db-e9660c38fd1d")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a10178b8-584b-4069-a908-0ef340dea1e3")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -3444,7 +3441,7 @@
 			(uuid "4fb00c44-eb8b-44f8-8915-3ecd8f193130")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c0677139-c9e9-472b-9fc8-dba205b4f783")
 			(effects
@@ -3455,7 +3452,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3464,7 +3461,7 @@
 			(uuid "7f5167fe-7c65-4e36-b553-2e4c8e7ffdde")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3505,14 +3502,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "940753d0-f900-4503-87dc-0f5387f6dc7a")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3664,14 +3661,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e95e9081-3101-4a6f-8729-8eeb88e7ae0a")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3823,14 +3820,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4c647ab3-4235-40b9-84d5-2a953a84e7e2")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -3982,14 +3979,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f62995f2-b5ed-40da-b160-66a3a46c1ecf")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4141,14 +4138,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "02e5846e-03c4-4585-b0c8-7fba6623e06c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4300,14 +4297,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0430b35b-1a0f-4303-84d7-3e6d034e4408")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4459,14 +4456,14 @@
 		(property "Value" "5.1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3ea8d64d-02a4-4516-a50b-18180a44ae35")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4618,14 +4615,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "caea3ab4-b16a-4ce4-b0d5-ad2bced800b4")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4777,14 +4774,14 @@
 		(property "Value" "33"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c9ac7405-10c9-440f-8730-81a68d93611b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -4936,14 +4933,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1051202f-a3f2-45eb-aff3-4d9aaf003882")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -5078,11 +5075,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5309a6f1-2f3a-4090-a745-443fe479c768")
-		(at 163.6500 116.4675)
+		(at 161.21 118.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C52"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "86e0a826-4315-477b-b6ae-d82bdb8fb7f5")
 			(effects
@@ -5093,7 +5090,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46f2d145-c9c3-4a97-9726-4f45e38378c1")
@@ -5102,11 +5099,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0862c6c7-7ab3-4126-9dd2-2a276e4dba2b")
@@ -5117,7 +5113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "519c4bed-49c6-449c-9b0c-ba1d1a77bbdb")
@@ -5128,7 +5124,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "453518ef-f157-46ef-ad63-4a5485f9d990")
@@ -5152,16 +5148,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8aa5c66c-e65b-4e0a-a4f1-f09bc42f5acc")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -5170,6 +5156,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "46c0effe-b297-4d79-9aca-254faf4811f5")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8aa5c66c-e65b-4e0a-a4f1-f09bc42f5acc")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -5194,7 +5190,7 @@
 			(uuid "13e5b2c7-cfcd-4ebf-9a68-6ce1f5730d6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "00fbef5f-316e-4439-bd04-a0698e7defae")
 			(effects
@@ -5205,7 +5201,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5214,7 +5210,7 @@
 			(uuid "85d20630-380c-43ca-8126-510d22af3c5b")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5589,14 +5585,14 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6349a73d-f5ea-4e98-82cc-9a723e902d9d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "MIC39100-3.3WS"
 			(at 0 0 0)
@@ -6080,11 +6076,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "54d95904-6c29-45cd-83d4-ca4f87fe0ac0")
-		(at 138.6500 78.4675)
+		(at 136.21 80.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "12ddc24a-d3db-4675-910f-8afce83a858d")
 			(effects
@@ -6095,7 +6091,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c048d141-abe5-4a61-b18f-1682595a9ab2")
@@ -6104,11 +6100,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d5f529a-9497-4f29-96b9-51d4825f03cc")
@@ -6119,7 +6114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e29c61e-2e08-44cd-b47f-c567c02e7f93")
@@ -6130,7 +6125,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "84367041-c69c-495b-bdbf-aa04e5cca43b")
@@ -6154,16 +6149,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "20b1429e-010d-4439-b137-70a19e3b2733")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -6172,6 +6157,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "70095ece-8a05-49c0-8bf3-649d0a656f1d")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20b1429e-010d-4439-b137-70a19e3b2733")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -6196,7 +6191,7 @@
 			(uuid "8a323dec-b761-4ef2-b33c-6db29ca10076")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6f362876-759d-4f9a-8ed8-7bf7341579f5")
 			(effects
@@ -6207,7 +6202,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6216,7 +6211,7 @@
 			(uuid "3fc160d0-1b27-400c-ab41-a27ee85a8565")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6952,14 +6947,14 @@
 		(property "Value" "10uF / tant"
 			(at 0 2.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8fbffaea-bf55-4b8b-bfed-95cddcdba3d9")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7160,14 +7155,14 @@
 		(property "Value" "Jumper_2_Open"
 			(at 0 1.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b6c3c4bf-5c19-4cff-9ffd-05f035dd8682")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7437,14 +7432,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6c1fe315-77bc-4aaf-a832-c65252db16c6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -7596,14 +7591,14 @@
 		(property "Value" "74HC165"
 			(at 0 5.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a71b9329-50a6-49ba-aa44-df1aa177df9c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -8061,14 +8056,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "789fef7d-704c-4c56-86e4-a665fdfeedb7")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8220,14 +8215,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b3f84277-8f41-4e15-889e-566e43dd435f")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8379,14 +8374,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d6915c17-4624-454b-b9d8-672233197904")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8538,14 +8533,14 @@
 		(property "Value" "Conn_01x04"
 			(at 0 3.98 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "984d9def-0976-47d5-bb8a-6ebd2aaffcfc")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -8971,14 +8966,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3bdd0cdd-414b-4dfb-8e23-1ac97a55a9c7")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9130,14 +9125,14 @@
 		(property "Value" "BLM15PX601SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5b7ec750-91ee-4c56-9640-c411670d2d84")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9269,14 +9264,14 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f35f6268-45fa-4153-9cf9-dd6eaaeb6722")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 			(at 0 0 0)
@@ -9454,14 +9449,14 @@
 		(property "Value" "BLM21PG221SN1"
 			(at 0 1.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5331f326-6b62-4fe4-9bd3-daeac146a319")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9596,11 +9591,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7ac58b16-33b5-46c0-8010-7f3d5e3ead32")
-		(at 163.6500 78.4675)
+		(at 161.21 80.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C48"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "d46eb020-dccc-48c3-96cf-333ce818eb5d")
 			(effects
@@ -9611,7 +9606,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1b81ced-40dc-4db0-8abc-2c32dd3565eb")
@@ -9620,11 +9615,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "043ecd44-fbee-4e80-99ac-e48a44f4ca72")
@@ -9635,7 +9629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e99cc22-2907-4302-8240-1dfaa0309207")
@@ -9646,7 +9640,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9de74f42-aa12-4cf5-90d6-6ee92e5f464b")
@@ -9670,16 +9664,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c5654064-722e-4fab-816d-c5cba0fc220d")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -9688,6 +9672,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "683a63aa-fa0a-4f54-8ebd-ba68a807c5dd")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5654064-722e-4fab-816d-c5cba0fc220d")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -9712,7 +9706,7 @@
 			(uuid "d512a6f3-5d0b-46ff-b58e-663b85581384")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "cf4b1ed7-af34-4103-a175-d3419cf74621")
 			(effects
@@ -9723,7 +9717,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9732,7 +9726,7 @@
 			(uuid "e95b9bdd-424a-4fb2-b5e5-cc64b54b7f95")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9773,14 +9767,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cf11539d-8cf1-4ed0-a845-4e78cdea323e")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -9932,14 +9926,14 @@
 		(property "Value" "74HC164"
 			(at 0 5.28 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "34b81ce8-3a46-4c65-a341-fad66dd7a548")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
 			(at 0 0 0)
@@ -10375,14 +10369,14 @@
 		(property "Value" "1uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4363273d-1677-47d2-83e9-7618436adc42")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -10534,14 +10528,14 @@
 		(property "Value" "1uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "df2a0f53-bd2d-4bba-8218-4edcfeddc846")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -10874,14 +10868,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3cd4bea8-601d-47d2-b9bc-401db1c50bd2")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11033,14 +11027,14 @@
 		(property "Value" "4.7uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b477a816-04be-4f08-9005-76402e4c5c97")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11192,14 +11186,14 @@
 		(property "Value" "BLM18BB121SN1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4615d971-7ffb-4b3b-abf3-2671ef47ac89")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11351,14 +11345,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4bb3e64e-79ec-49a4-aef7-2039e87d86ad")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11510,14 +11504,14 @@
 			(at 0.6096 4.9784 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "97141291-ed02-495f-9166-bf29ec6e93bf")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -11742,14 +11736,14 @@
 		(property "Value" "74HC165"
 			(at 0 5.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dc91a291-43bd-4ed8-a020-86a216ec6582")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -12207,14 +12201,14 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f350ce09-71e3-458b-a16d-e89104188b29")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -12366,14 +12360,14 @@
 		(property "Value" "LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3978d9a3-8a9d-471a-8ba3-48ec0595f552")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -12909,14 +12903,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b88fea0f-da90-4e9e-9e2d-69ff854088a2")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13068,14 +13062,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "08ed7657-b621-4fa0-9c80-123a3e85db81")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13408,14 +13402,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "916bd0ef-2253-47a7-93a8-cd704cc15a51")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13567,14 +13561,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3e8e42d6-4bfa-4d32-bb02-d4fd1fd90879")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -13709,11 +13703,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c1be1b19-6833-42a2-b69c-f9d592ae1775")
-		(at 132.6500 78.4675)
+		(at 130.21 80.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "9c7ab91e-ca22-48a0-ba7a-5616a7eac2ee")
 			(effects
@@ -13724,7 +13718,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a8975b7-8276-49f7-b334-5cdc7662514e")
@@ -13733,11 +13727,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8338b714-c141-4d5c-ab5c-059676312247")
@@ -13748,7 +13741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b998ea2e-14ba-4a2c-bbd6-711bfa53c33c")
@@ -13759,7 +13752,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a6b32f3c-0328-4528-b9c2-a5b250dc22f9")
@@ -13783,16 +13776,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a808c70d-d0e5-48ac-a556-1077da4ea42a")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -13801,6 +13784,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "06caa5c0-4a6d-4d69-8085-b9bfca51acba")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a808c70d-d0e5-48ac-a556-1077da4ea42a")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -13825,7 +13818,7 @@
 			(uuid "bd0df05c-b5ce-4390-bf65-2ec1aa58811c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "231a363b-1702-4780-8ce7-b57fe473d1f3")
 			(effects
@@ -13836,7 +13829,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13845,7 +13838,7 @@
 			(uuid "90f1b800-0655-4309-a782-5ba71925800a")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13886,14 +13879,14 @@
 		(property "Value" "LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "055851d5-5884-4599-9070-971674fc1200")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14096,14 +14089,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e4ead6e1-9965-4d92-89d7-d462e22fd9ea")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14255,14 +14248,14 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5a881cf6-a816-4055-ad3c-5790690fd9e6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14414,14 +14407,14 @@
 		(property "Value" "BLM15PX601SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a0d37239-6b1e-44be-b572-9b33c95d70f4")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14553,14 +14546,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fce1d427-9d7a-4ede-a966-4d3ce6c7681c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14712,14 +14705,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6e91539d-a40c-49d9-8d5d-0f7ac2365811")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -14854,11 +14847,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ca26dca0-558c-492f-bfd7-96c301458969")
-		(at 132.6500 116.4675)
+		(at 130.21 118.2875 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
-			(at 0 -1.16 0)
+			(at 2.47 -0.01 90)
 			(layer "F.SilkS")
 			(uuid "58a31157-cd68-4a87-8916-58bfef1e1bc7")
 			(effects
@@ -14869,7 +14862,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c636222-c767-443b-84c3-4cf2587eeb8c")
@@ -14878,11 +14871,10 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dae6029e-ce00-4751-b72e-7790ee2de627")
@@ -14893,7 +14885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c33e2aed-2c43-4073-817d-16573e9c9156")
@@ -14904,7 +14896,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d99c3606-3030-4c5f-ad8e-356f1a7864c4")
@@ -14928,16 +14920,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4517bb2-e02d-482b-9448-250b76c61810")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -14946,6 +14928,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "db8277d0-9d34-4abc-be77-e09b426d1a96")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4517bb2-e02d-482b-9448-250b76c61810")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -14970,7 +14962,7 @@
 			(uuid "9523dc5a-4ab8-46c6-aa7e-f628a1166a45")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "d01a4bee-8d15-484d-bca8-2e39665e801f")
 			(effects
@@ -14981,7 +14973,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14990,7 +14982,7 @@
 			(uuid "03ed8c06-21f9-4969-bead-0781a1c894b4")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15393,14 +15385,14 @@
 		(property "Value" "Jumper_2_Bridged"
 			(at 0 1.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5cfe90b2-fd02-4f63-918b-49fe82fe2e39")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15683,14 +15675,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ac1cbb2b-0d78-46d4-8d17-0e37e21e08b6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -15842,14 +15834,14 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e230c03e-3fd6-49b8-8ba4-f337467b8fa0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16001,14 +15993,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "256e119e-8ad9-45f8-ab09-235fc83e9eb6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16160,14 +16152,14 @@
 		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ffcbb45c-3d59-41df-9f5e-e8aacf8777bb")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16319,14 +16311,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "897b5df0-f520-4b47-9203-fff7a351b791")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16478,14 +16470,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "07cbc4a3-162c-4f66-b836-d02507a87dd6")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16637,14 +16629,14 @@
 		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "73c55008-08ad-4804-904f-29e2667ca789")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16796,14 +16788,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9a9d8d01-e849-4282-9387-0fc5ffc4932c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -16955,14 +16947,14 @@
 		(property "Value" "74HC165"
 			(at 0 5.9 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "081b6d8d-ecc8-4253-812d-2080657b5dad")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 			(at 0 0 0)
@@ -17419,14 +17411,14 @@
 		(property "Value" "SG-310SCF"
 			(at 0 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ed20da50-dc31-4a7d-b00a-4c4ebaea0ca4")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC"
 			(at 0 0 0)
@@ -17612,14 +17604,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b7c952c5-85c0-44dc-8cc2-b0f5b943d7d5")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18104,14 +18096,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "13116bf4-d99b-475a-a6e3-e81f68db0d0e")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18263,14 +18255,14 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4b5156fe-23eb-4619-b76a-fc5d6ee353db")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18422,14 +18414,14 @@
 		(property "Value" "Conn_01x04"
 			(at 0 3.98 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2ed5ff70-2c73-43a3-893c-b02e50f246e9")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -18855,14 +18847,14 @@
 		(property "Value" "BLM18BB121SN1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fbe38cd7-e428-440a-a966-38f2391ae853")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -19014,14 +19006,14 @@
 		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cb87fa0e-7989-4a38-97c3-f983a4f81f48")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -19173,6 +19165,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ab0fa6c1-5b5d-4afb-8340-001e067fceb7")
 			(effects
 				(font
@@ -19180,8 +19173,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -19616,6 +19608,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5b197c1b-0400-4b2f-badd-68c2a7e01990")
 			(effects
 				(font
@@ -19623,8 +19616,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -19781,6 +19773,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "478ca382-eaa8-4ac6-8b8c-8ed19cfa34e6")
 			(effects
 				(font
@@ -19788,8 +19781,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20095,6 +20087,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "317ea828-cf8c-4541-bb88-8ff4395d7154")
 			(effects
 				(font
@@ -20102,8 +20095,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20409,6 +20401,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3451360b-b3c7-4cfe-b90a-bbf892533672")
 			(effects
 				(font
@@ -20416,8 +20409,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -20723,6 +20715,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3b030911-6694-445d-96da-23e37260e206")
 			(effects
 				(font
@@ -20730,8 +20723,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -21053,6 +21045,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "a645e4f1-f7fb-4818-9809-924d3eb55200")
 			(effects
 				(font
@@ -21060,8 +21053,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -21366,6 +21358,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "aa94e7c0-779a-4ed1-ad9e-ca60664e59ed")
 			(effects
 				(font
@@ -21373,8 +21366,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -21808,6 +21800,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "b7446a2f-958c-4278-96cc-3bb9f99c7fd6")
 			(effects
 				(font
@@ -21815,8 +21808,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -22251,6 +22243,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f08bcd93-3aaa-4261-ac15-9f11bc80a2ea")
 			(effects
 				(font
@@ -22258,8 +22251,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -22565,6 +22557,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "307875d8-8a28-4a02-9f37-ea87d6b037ac")
 			(effects
 				(font
@@ -22572,8 +22565,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -22878,6 +22870,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7212ae72-4b46-4409-a4a0-e1115f0b0455")
 			(effects
 				(font
@@ -22885,8 +22878,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -23320,6 +23312,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "fb19aabe-80fa-4d9d-bed5-1ae77510f61d")
 			(effects
 				(font
@@ -23327,8 +23320,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -23763,6 +23755,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "362a4bab-b01a-4d70-951a-62a05c9737e0")
 			(effects
 				(font
@@ -23770,8 +23763,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -23928,6 +23920,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f419d3cc-e564-47c7-b8dc-95e0c900eb38")
 			(effects
 				(font
@@ -23935,8 +23928,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -24092,6 +24084,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3a2d0ec9-44b7-44c9-9d77-31135226e2d5")
 			(effects
 				(font
@@ -24099,8 +24092,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -24535,6 +24527,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0b47ae26-4267-4c6a-acde-8be4086c20c8")
 			(effects
 				(font
@@ -24542,8 +24535,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -24849,6 +24841,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "b1aefde4-4b21-4ebc-aca6-5c95de653de8")
 			(effects
 				(font
@@ -24856,8 +24849,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -25162,6 +25154,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5ec6e4cf-8131-4e6b-9b41-3e3bdf4139ee")
 			(effects
 				(font
@@ -25169,8 +25162,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -25605,6 +25597,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4056dbb9-e033-4297-bb3e-9f43f14070ec")
 			(effects
 				(font
@@ -25612,8 +25605,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -25769,6 +25761,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f0098314-fe5b-4507-a206-44640b9b1318")
 			(effects
 				(font
@@ -25776,8 +25769,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -26211,6 +26203,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "facd8f09-b72f-403e-b351-699ca6e83389")
 			(effects
 				(font
@@ -26218,8 +26211,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -26654,6 +26646,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "cfb3d41f-cd80-4cd5-a02e-d2c80bd28af2")
 			(effects
 				(font
@@ -26661,8 +26654,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -26819,6 +26811,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "46c701d8-cf63-4069-9f0b-a9c7dd814936")
 			(effects
 				(font
@@ -26826,8 +26819,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -26984,6 +26976,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7401543b-457a-4dfc-a8ee-98f0bc459e54")
 			(effects
 				(font
@@ -26991,8 +26984,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -27298,6 +27290,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "eca5eea0-1135-47d0-9dea-5a9870d065d9")
 			(effects
 				(font
@@ -27305,8 +27298,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -27612,6 +27604,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0847076b-8111-4c70-9bd9-319259d8befc")
 			(effects
 				(font
@@ -27619,8 +27612,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -27776,6 +27768,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "24bf5e08-83e3-49d9-8f6c-2b8a11523140")
 			(effects
 				(font
@@ -27783,8 +27776,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -28219,6 +28211,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3bc0e2f0-4f3e-4354-b25d-d3dcace6ce05")
 			(effects
 				(font
@@ -28226,8 +28219,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -28698,6 +28690,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "53fb0ad6-e3e8-4f2f-9be6-9e3daaa9e6d2")
 			(effects
 				(font
@@ -28705,8 +28698,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29012,6 +29004,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8e505397-cbdd-4c67-bf12-58a4af801262")
 			(effects
 				(font
@@ -29019,8 +29012,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29326,6 +29318,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "643164a1-adc2-41cb-99a3-23a68ed6af93")
 			(effects
 				(font
@@ -29333,8 +29326,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29640,6 +29632,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "348c3f79-b8ed-4b6f-88dc-ea602677ed00")
 			(effects
 				(font
@@ -29647,8 +29640,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -29954,6 +29946,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4624627d-ec41-4b7c-9030-fd1675c42934")
 			(effects
 				(font
@@ -29961,8 +29954,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -30268,6 +30260,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "50227b5b-fe5f-44f5-a41b-b9af5afbba85")
 			(effects
 				(font
@@ -30275,8 +30268,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -30433,6 +30425,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "028b4bc6-ee08-43cc-b514-3af0ab5cb207")
 			(effects
 				(font
@@ -30440,8 +30433,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -30746,6 +30738,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "31cb45a8-ab19-4a44-827e-847b15fe05b1")
 			(effects
 				(font
@@ -30753,8 +30746,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -31189,6 +31181,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "88c9699e-2391-4f2c-90d6-ed4aaeea0eb3")
 			(effects
 				(font
@@ -31196,8 +31189,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -31353,6 +31345,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "50353ac7-249a-4d44-880f-f7abedc36fa7")
 			(effects
 				(font
@@ -31360,8 +31353,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -31796,6 +31788,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "95604aaf-0410-4308-b47f-f4f066f55e11")
 			(effects
 				(font
@@ -31803,8 +31796,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -31959,6 +31951,7 @@
 		(property "Value" "UB1611-HGN"
 			(at 12.075 3.455 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "af21c55a-f77b-4a90-b335-b3609b95f48a")
 			(effects
 				(font
@@ -31966,8 +31959,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -32446,6 +32438,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "374bdb6d-0ebb-42d8-85fb-72420cbf7874")
 			(effects
 				(font
@@ -32453,8 +32446,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -32888,6 +32880,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4640d0d3-e321-41d7-9e12-88c753602d62")
 			(effects
 				(font
@@ -32895,8 +32888,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -33331,6 +33323,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "b7240042-4c5c-4312-8470-90c5e854588e")
 			(effects
 				(font
@@ -33338,8 +33331,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -33644,6 +33636,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6580270c-16d1-4b7d-83f2-efbf43a83a6c")
 			(effects
 				(font
@@ -33651,8 +33644,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -34086,6 +34078,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "23e4e0f3-bbd4-42e3-9153-9f59a3fba5d3")
 			(effects
 				(font
@@ -34093,8 +34086,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -34529,6 +34521,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c126db2f-2290-47f6-b3d4-92e39a412243")
 			(effects
 				(font
@@ -34536,8 +34529,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -34694,6 +34686,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "105505c2-a298-481c-9863-a9e1a7ffaad8")
 			(effects
 				(font
@@ -34701,8 +34694,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -35007,6 +34999,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "e115e0b7-8f77-438a-a976-1b3bcc231df2")
 			(effects
 				(font
@@ -35014,8 +35007,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -35449,6 +35441,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "9ea8e258-45a4-4a8b-b60d-b50cf6853d7f")
 			(effects
 				(font
@@ -35456,8 +35449,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -35891,6 +35883,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "243295f4-b29d-46ca-8aee-277abe6d2e1d")
 			(effects
 				(font
@@ -35898,8 +35891,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -36334,6 +36326,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "e2599848-17d3-43b9-b75f-c4e62f7d50d3")
 			(effects
 				(font
@@ -36341,8 +36334,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -36498,6 +36490,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "adf6b428-a1af-438a-b383-f95faaab7edb")
 			(effects
 				(font
@@ -36505,8 +36498,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -36940,6 +36932,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "528f4fdc-7c52-45dd-b298-df779b09c18a")
 			(effects
 				(font
@@ -36947,8 +36940,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -37383,6 +37375,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3e64f821-b88d-4bc7-af13-40a07df3397f")
 			(effects
 				(font
@@ -37390,8 +37383,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -37547,6 +37539,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4a984abc-fc13-4973-a12a-a92c3664360f")
 			(effects
 				(font
@@ -37554,8 +37547,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -37990,6 +37982,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "829594aa-cf65-494b-8dfb-826f3e0071e1")
 			(effects
 				(font
@@ -37997,8 +37990,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -38155,6 +38147,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d4d358e6-54ab-4af1-b4f1-0a91c0c86383")
 			(effects
 				(font
@@ -38162,8 +38155,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -38468,6 +38460,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "cbadb2c5-4c25-44ac-b625-c96561890d14")
 			(effects
 				(font
@@ -38475,8 +38468,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -38911,6 +38903,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "db7b6b97-80fc-4198-9de9-af8bea9e134e")
 			(effects
 				(font
@@ -38918,8 +38911,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -39225,6 +39217,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c4453b85-6f32-4a29-8f82-27445f8e6d9a")
 			(effects
 				(font
@@ -39232,8 +39225,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -39389,6 +39381,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7479e75e-dae3-40cf-b60f-b08a77e09e09")
 			(effects
 				(font
@@ -39396,8 +39389,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -39831,6 +39823,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "872f77de-1fa7-4c36-ac08-8bb902638a9b")
 			(effects
 				(font
@@ -39838,8 +39831,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -40274,6 +40266,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ca255784-8f11-4d82-878c-f3685817f135")
 			(effects
 				(font
@@ -40281,8 +40274,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -40439,6 +40431,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f64f2e5f-4711-41ae-b26a-a15e99f305cb")
 			(effects
 				(font
@@ -40446,8 +40439,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -40604,6 +40596,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ef04645e-ba23-4fe8-a3c5-1c9552e7958d")
 			(effects
 				(font
@@ -40611,8 +40604,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -40917,6 +40909,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3231a0b8-15d9-4395-b66f-079e9a008ce6")
 			(effects
 				(font
@@ -40924,8 +40917,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -41359,6 +41351,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "11e77668-6556-4365-818b-5ecd264a0648")
 			(effects
 				(font
@@ -41366,8 +41359,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -41802,6 +41794,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "b9457834-3707-4673-a1a4-23b57985d67d")
 			(effects
 				(font
@@ -41809,8 +41802,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -42116,6 +42108,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f0c352f9-538b-4181-9fb1-cac0d0ab245c")
 			(effects
 				(font
@@ -42123,8 +42116,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -42429,6 +42421,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5c4aaa8a-2aa0-4935-934d-d3909442a7a9")
 			(effects
 				(font
@@ -42436,8 +42429,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -42872,6 +42864,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "29436885-74f6-4b1e-b938-f6f4944850ab")
 			(effects
 				(font
@@ -42879,8 +42872,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -43037,6 +43029,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5df7d2d0-9d72-4061-a925-2f64bf75e17e")
 			(effects
 				(font
@@ -43044,8 +43037,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -43202,6 +43194,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "076a482c-e565-4ad3-9241-8836a2ad3a4f")
 			(effects
 				(font
@@ -43209,8 +43202,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -43516,6 +43508,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "24681af9-f6f7-4acd-b2ce-d0416786eb2b")
 			(effects
 				(font
@@ -43523,8 +43516,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -43829,6 +43821,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6aded2d9-44d9-4b87-bf6d-334f26aac5f4")
 			(effects
 				(font
@@ -43836,8 +43829,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -44271,6 +44263,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8de8ccdc-de40-4560-a1bf-35c6744e23a4")
 			(effects
 				(font
@@ -44278,8 +44271,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -44714,6 +44706,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0b0d5af6-2e0e-4fed-92d0-d576b0e70b37")
 			(effects
 				(font
@@ -44721,8 +44714,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -44879,6 +44871,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "72786dce-836a-4d07-906b-68b01ee24f9a")
 			(effects
 				(font
@@ -44886,8 +44879,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -45193,6 +45185,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d45af84f-86e5-4d82-a279-abd6bc681860")
 			(effects
 				(font
@@ -45200,8 +45193,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -45358,6 +45350,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ae76738d-f546-4b9e-84ca-fad7880f509d")
 			(effects
 				(font
@@ -45365,8 +45358,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -45523,6 +45515,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7a93e490-044c-4422-83f7-86638b0d8bc1")
 			(effects
 				(font
@@ -45530,8 +45523,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -45837,6 +45829,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7a7c348b-6fb8-4930-ba73-ea32294c61ec")
 			(effects
 				(font
@@ -45844,8 +45837,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -46150,6 +46142,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "1e2ed557-4547-48d1-bb6f-a159909e2091")
 			(effects
 				(font
@@ -46157,8 +46150,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -46593,6 +46585,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0a914611-f5d6-4ad8-a061-7450eaf40a75")
 			(effects
 				(font
@@ -46600,8 +46593,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -46907,6 +46899,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "de753d23-09d3-46e2-b167-5011ac19e4eb")
 			(effects
 				(font
@@ -46914,8 +46907,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -47221,6 +47213,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3f09b8cf-c3ef-449c-874e-d3be56ac0442")
 			(effects
 				(font
@@ -47228,8 +47221,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -47535,6 +47527,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "da9f1531-2e1e-4379-9e46-babb3891224e")
 			(effects
 				(font
@@ -47542,8 +47535,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -47700,6 +47692,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "46be21b0-f3b2-4578-9be3-dbe2d624b7a2")
 			(effects
 				(font
@@ -47707,8 +47700,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -47865,6 +47857,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "1797fba2-9a7d-405d-8476-eec1123939df")
 			(effects
 				(font
@@ -47872,8 +47865,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -48030,6 +48022,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "2c7d58a0-5444-432e-8921-e2ce8f2e48ce")
 			(effects
 				(font
@@ -48037,8 +48030,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -48344,6 +48336,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "98d9ca82-e153-4a99-95b4-a60bd23f3bfb")
 			(effects
 				(font
@@ -48351,8 +48344,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -48509,6 +48501,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6f87ada1-a156-4202-b463-f65f87ee5882")
 			(effects
 				(font
@@ -48516,8 +48509,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -48673,6 +48665,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "173d2acd-67d5-4cde-b6fa-3c76c866b39b")
 			(effects
 				(font
@@ -48680,8 +48673,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -49116,6 +49108,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d9b67179-609f-4c7c-8c84-6cb338680519")
 			(effects
 				(font
@@ -49123,8 +49116,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -49281,6 +49273,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c9051088-81b6-4946-b2b8-112a565c22d4")
 			(effects
 				(font
@@ -49288,8 +49281,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -49445,6 +49437,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "70ac8982-cc8d-4e8d-a58c-f216336e6b22")
 			(effects
 				(font
@@ -49452,8 +49445,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -49887,6 +49879,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4514c896-95a3-4e00-9fe0-6b5807f09caa")
 			(effects
 				(font
@@ -49894,8 +49887,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -50329,6 +50321,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "9a8d15a9-a100-4914-ab3a-a9799ea19638")
 			(effects
 				(font
@@ -50336,8 +50329,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -50772,6 +50764,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "76c02307-39de-42bd-b066-8b9604a69a06")
 			(effects
 				(font
@@ -50779,8 +50772,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -51086,6 +51078,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7adc4672-76ec-4486-9648-29612f3bee55")
 			(effects
 				(font
@@ -51093,8 +51086,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -51250,6 +51242,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d7af22aa-4c69-4208-9c46-edeada5e2d52")
 			(effects
 				(font
@@ -51257,8 +51250,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -51692,6 +51684,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "be99688d-c370-4cad-ad98-35a78b1d7a9b")
 			(effects
 				(font
@@ -51699,8 +51692,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -52135,6 +52127,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7ed7dc51-128a-43b8-9479-e8f1179e842c")
 			(effects
 				(font
@@ -52142,8 +52135,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -52449,6 +52441,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "abc1b004-8072-4b0a-ab3e-4f87f0423a46")
 			(effects
 				(font
@@ -52456,8 +52449,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -52762,6 +52754,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "9fe4ddd1-52b4-4d6b-a6c9-9d515e66741e")
 			(effects
 				(font
@@ -52769,8 +52762,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -53370,6 +53362,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "73b5e0a0-b377-4536-82ef-551702b6c159")
 			(effects
 				(font
@@ -53377,8 +53370,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -53535,6 +53527,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8ee0362c-1aa9-45fc-9e8d-7fc6509f0218")
 			(effects
 				(font
@@ -53542,8 +53535,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -53700,6 +53692,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5a35e9a5-97e5-41b7-a1fe-af31f9ed4daa")
 			(effects
 				(font
@@ -53707,8 +53700,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -54030,6 +54022,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3c195add-5ad0-47d0-bc8b-f2c25f7dfc34")
 			(effects
 				(font
@@ -54037,8 +54030,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -54344,6 +54336,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "7b2a0dad-9477-4e6a-b87e-121cebecd3f1")
 			(effects
 				(font
@@ -54351,8 +54344,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -54658,6 +54650,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "258c54f7-dc6e-42d9-8bfb-400208699dc8")
 			(effects
 				(font
@@ -54665,8 +54658,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -54823,6 +54815,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5b660db5-71d1-4b02-8e8b-a73b1986a079")
 			(effects
 				(font
@@ -54830,8 +54823,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -54988,6 +54980,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "5427cfb8-ae8b-4bdf-b6ad-1e491e533bff")
 			(effects
 				(font
@@ -54995,8 +54988,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
@@ -55302,6 +55294,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "97cd06e0-307a-4372-951b-3f0bac994d7d")
 			(effects
 				(font
@@ -55309,8 +55302,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -55466,6 +55458,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d6d22418-9565-489c-9d38-1eca5b57a228")
 			(effects
 				(font
@@ -55473,8 +55466,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -55908,6 +55900,7 @@
 			(at 0 -8.2625 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "6b91de08-ad49-4bc7-924f-b4346acb9f92")
 			(effects
 				(font
@@ -55915,8 +55908,7 @@
 					(thickness 0.125)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
 			(at 0 0 0)
@@ -56351,6 +56343,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "dfc13c49-26e7-4cfb-a3b0-0594c294f67f")
 			(effects
 				(font
@@ -56358,8 +56351,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56516,6 +56508,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c1c2dc08-fda7-4464-aad7-d35b49c352d9")
 			(effects
 				(font
@@ -56523,8 +56516,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56681,6 +56673,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d6bf3b77-e74f-41de-acb2-0dd241e2e440")
 			(effects
 				(font
@@ -56688,8 +56681,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
@@ -56846,6 +56838,7 @@
 		(property "Value" "1N4148WT"
 			(at 0 -1.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "a0f2ce3d-d7bb-4ab5-b380-125d7068448e")
 			(effects
 				(font
@@ -56853,8 +56846,7 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			
-				(hide yes))
+			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
 			(at 0 0 0)
