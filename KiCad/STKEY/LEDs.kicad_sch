@@ -838,14 +838,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "My_Parts:PEC11R"
+		(symbol "My_Parts:ROTARY_ENCODER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "ENC"
-				(at 0 10.16 0)
+				(at -2.54 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -854,8 +854,8 @@
 					)
 				)
 			)
-			(property "Value" "PEC11R-4220F-S0024"
-				(at 0 -10.16 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -886,7 +886,7 @@
 					)
 				)
 			)
-			(property "Description" "Rotary encoder, 24 detents / 24 pulses, push switch. Bourns PEC11R-4220F-S0024"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -897,7 +897,7 @@
 					)
 				)
 			)
-			(symbol "PEC11R_0_1"
+			(symbol "ROTARY_ENCODER_0_1"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -910,7 +910,7 @@
 					)
 				)
 			)
-			(symbol "PEC11R_1_1"
+			(symbol "ROTARY_ENCODER_1_1"
 				(pin passive line
 					(at -7.62 5.08 0)
 					(length 2.54)
@@ -4415,96 +4415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Parts:PEC11R")
-		(at 52.07 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b9820d8-d747-4eae-a312-83b5db7bc632")
-		(property "Reference" "ENC1"
-			(at 46.99 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PEC11R-4220F-S0024"
-			(at 47.348 53.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.8 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.8 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.8 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1253e69d-5da0-4b05-af23-78f882958d0a")
-		)
-		(pin "2"
-			(uuid "f137e8c8-80e9-41e1-ac6f-76d0eeaa5535")
-		)
-		(pin "3"
-			(uuid "f6929aa0-ee50-4cb4-a3ae-df5ee63807b5")
-		)
-		(pin "4"
-			(uuid "286947d8-f2b2-4311-9e39-36d5de879933")
-		)
-		(pin "5"
-			(uuid "b4c1063e-f6d2-460e-adb8-851b01714b02")
-		)
-		(instances
-			(project "STKEY"
-				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
-					(reference "ENC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 167.64 46.99 0)
 		(unit 1)
@@ -4815,6 +4725,94 @@
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Parts:ROTARY_ENCODER")
+		(at 104.14 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53e31726-d1e7-4ba2-9dbb-9e71be246b97")
+		(property "Reference" "ENC2"
+			(at 101.854 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 110.744 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Parts:XDCR_PEC11R-4220F-S0024"
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7f3b520f-9a38-40ba-97cd-faec2df5aab0")
+		)
+		(pin "1"
+			(uuid "28dce74c-25fc-4c05-8051-afe21fbdd292")
+		)
+		(pin "5"
+			(uuid "8cd06cd5-e692-4bf1-93de-ec07a3549ec1")
+		)
+		(pin "4"
+			(uuid "88b918de-cc55-4395-bc26-c69cde7a1953")
+		)
+		(pin "2"
+			(uuid "e60d4b6b-8076-470b-83c5-45b38f382d5b")
+		)
+		(instances
+			(project "STKEY"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
+					(reference "ENC2")
 					(unit 1)
 				)
 			)
@@ -5374,96 +5372,6 @@
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Parts:PEC11R")
-		(at 154.94 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "850bc771-6ce4-4001-b195-c45e8b17596b")
-		(property "Reference" "ENC3"
-			(at 149.86 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PEC11R-4220F-S0024"
-			(at 150.218 53.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.67 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.67 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.67 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d9a0a1e-5e1d-43e1-bb53-15928a9895e8")
-		)
-		(pin "2"
-			(uuid "f9a5a2de-ba42-4b97-b72e-de729d2b714c")
-		)
-		(pin "3"
-			(uuid "85b8e255-614b-44ab-b24c-a2e80f1da0d1")
-		)
-		(pin "4"
-			(uuid "ba397e4f-1471-400e-97ce-2fcda99cd914")
-		)
-		(pin "5"
-			(uuid "760c352d-8b9c-4a89-bdeb-3abfeeb06991")
-		)
-		(instances
-			(project "STKEY"
-				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
-					(reference "ENC3")
 					(unit 1)
 				)
 			)
@@ -7564,6 +7472,94 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Parts:ROTARY_ENCODER")
+		(at 208.28 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2fda4c2-6e34-4e38-99a5-77e80b6ac4b6")
+		(property "Reference" "ENC4"
+			(at 205.994 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 214.884 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Parts:XDCR_PEC11R-4220F-S0024"
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "27ec23e0-b981-48f4-b728-470b773b1db6")
+		)
+		(pin "1"
+			(uuid "98cc648f-dc77-4153-ac58-2e6f27ca0170")
+		)
+		(pin "5"
+			(uuid "d3c25435-1221-43e9-8d2c-5fa94222dc02")
+		)
+		(pin "4"
+			(uuid "29b1d38a-09a2-42e3-b1ff-fad51882eb7d")
+		)
+		(pin "2"
+			(uuid "12a379a8-f867-4fcc-862c-22d9c77aa89b")
+		)
+		(instances
+			(project "STKEY"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
+					(reference "ENC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 195.58 31.75 0)
 		(unit 1)
@@ -8036,96 +8032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Parts:PEC11R")
-		(at 104.14 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e93a2081-b9ec-42ac-af86-b7665400971e")
-		(property "Reference" "ENC2"
-			(at 99.06 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PEC11R-4220F-S0024"
-			(at 99.418 53.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 286.87 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 286.87 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 286.87 -59.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "420998ba-21ac-4cbd-9a50-c997d1638a90")
-		)
-		(pin "2"
-			(uuid "edfca028-396f-4493-be78-163293b49739")
-		)
-		(pin "3"
-			(uuid "069cba95-9cdc-49cc-b938-d9c22b182759")
-		)
-		(pin "4"
-			(uuid "d789e043-a93a-4217-8f77-df17ea710191")
-		)
-		(pin "5"
-			(uuid "5b8a2ce2-340d-40ab-95e5-3f77dd164377")
-		)
-		(instances
-			(project "STKEY"
-				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
-					(reference "ENC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 107.95 71.12 0)
 		(unit 1)
@@ -8203,8 +8109,8 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Parts:PEC11R")
-		(at 208.28 44.45 0)
+		(lib_id "My_Parts:ROTARY_ENCODER")
+		(at 52.07 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8212,31 +8118,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eda86c26-53ae-45b0-94c1-c073eb6f5579")
-		(property "Reference" "ENC4"
-			(at 203.2 35.56 0)
+		(uuid "edb1f321-3b71-435d-b839-8f03c5556ab1")
+		(property "Reference" "ENC1"
+			(at 49.784 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "PEC11R-4220F-S0024"
-			(at 203.558 53.52 0)
+			(at 58.674 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 391.01 -59.51 0)
+		(property "Footprint" "My_Parts:XDCR_PEC11R-4220F-S0024"
+			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.01 -59.51 0)
+			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.01 -59.51 0)
+			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,25 +8172,25 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "3c8b953b-2eb5-4051-8348-af83e452e4af")
-		)
-		(pin "2"
-			(uuid "662a7b95-2867-46b9-8d13-781998423145")
-		)
 		(pin "3"
-			(uuid "2acb985f-58fe-4496-970b-e3a9c31e7432")
+			(uuid "78c47f7f-c205-4c22-8dce-d48451eb6285")
 		)
-		(pin "4"
-			(uuid "e1fac483-cee5-48a7-aa16-f4d8a14f3d11")
+		(pin "1"
+			(uuid "f25620e5-f829-41e1-97a0-ef2a051efdba")
 		)
 		(pin "5"
-			(uuid "46e46476-a8aa-460c-ad6f-03c5bff0e706")
+			(uuid "5ecae3e3-0b4c-431e-bf64-ff091fb5073f")
+		)
+		(pin "4"
+			(uuid "583c06a0-06c7-4862-9ea0-bbe7c22bea2e")
+		)
+		(pin "2"
+			(uuid "40b35494-00ee-422e-86c4-fd65d757c976")
 		)
 		(instances
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
-					(reference "ENC4")
+					(reference "ENC1")
 					(unit 1)
 				)
 			)
@@ -8609,6 +8513,94 @@
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Parts:ROTARY_ENCODER")
+		(at 154.94 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f54d654a-8e17-461f-a289-8a86209de348")
+		(property "Reference" "ENC3"
+			(at 152.654 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 161.544 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Parts:XDCR_PEC11R-4220F-S0024"
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4f38ae72-3460-4dc6-9a20-d89a151f63af")
+		)
+		(pin "1"
+			(uuid "647ba666-2e42-4f08-8564-55f51a209408")
+		)
+		(pin "5"
+			(uuid "c353c102-c577-469c-a755-3681265a50f9")
+		)
+		(pin "4"
+			(uuid "b6a3cf0a-3e1c-4e13-8304-c6b2fc5adb3c")
+		)
+		(pin "2"
+			(uuid "b2a7afcc-a3ec-4327-ae44-8f2aa5059dea")
+		)
+		(instances
+			(project "STKEY"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/46e9677f-bc80-4441-a208-bb37e1ff93cf"
+					(reference "ENC3")
 					(unit 1)
 				)
 			)
