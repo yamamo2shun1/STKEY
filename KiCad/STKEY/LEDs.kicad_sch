@@ -3329,7 +3329,7 @@
 			)
 		)
 	)
-	(global_label "165_CNAIN"
+	(global_label "165_CHAIN"
 		(shape output)
 		(at 125.73 142.24 0)
 		(fields_autoplaced yes)
