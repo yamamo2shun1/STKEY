@@ -4605,7 +4605,161 @@
 				)
 			)
 		)
-	)
+	
+		(symbol "My_Parts:PEC11R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ENC"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PEC11R-4220F-S0024"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, 24 detents / 24 pulses, push switch. Bourns PEC11R-4220F-S0024"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PEC11R_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PEC11R_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+)
 	(junction
 		(at 45.72 189.23)
 		(diameter 0)
@@ -5054,10 +5208,7 @@
 		(at 143.51 160.02)
 		(uuid "77e36e8f-d1e0-491f-81cc-7b43d9b20ab3")
 	)
-	(no_connect
-		(at 240.03 50.8)
-		(uuid "8e313170-d1e9-4a1a-a245-00ffbb0c2430")
-	)
+	
 	(no_connect
 		(at 88.9 129.54)
 		(uuid "979243c2-f500-4d71-a9df-9f870dd179e5")
@@ -12465,5 +12616,4600 @@
 				)
 			)
 		)
+	)
+
+	(symbol
+		(lib_id "74xx:74HC165")
+		(at 252.73 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4003ea9b-790d-4031-b319-f4b56410cc51")
+		(property "Reference" "U7"
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC165"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0666448f-7a62-4884-9f23-965273a870f9")
+		)
+		(pin "10"
+			(uuid "80e4e68d-5404-40b0-98a6-6108c0efa8fd")
+		)
+		(pin "11"
+			(uuid "554efe0e-5686-4175-8a4c-0fd7fce658a5")
+		)
+		(pin "12"
+			(uuid "3cca4aab-d0d4-4321-ac6a-01ade5a4e9f5")
+		)
+		(pin "13"
+			(uuid "94d0a736-b8fa-4503-b97d-df398dad536b")
+		)
+		(pin "14"
+			(uuid "c9d47cf4-3e81-4034-9f70-8bf1ab0f8c94")
+		)
+		(pin "15"
+			(uuid "de1d1e0a-723a-4cbf-a76f-a0819b49e92f")
+		)
+		(pin "16"
+			(uuid "29a254ac-5faf-459e-9a2d-1edeeddc49fd")
+		)
+		(pin "2"
+			(uuid "423756c8-5647-48cf-af79-6ce4a771e384")
+		)
+		(pin "3"
+			(uuid "7dbbf9d9-f2c0-4870-8786-fe4edf667946")
+		)
+		(pin "4"
+			(uuid "23342236-a260-42b5-91d9-dd5a7f9200a5")
+		)
+		(pin "5"
+			(uuid "724c4658-188c-453d-8315-93f907095a89")
+		)
+		(pin "6"
+			(uuid "91161b3e-8c23-4ee0-8250-b1e6c94b7043")
+		)
+		(pin "7"
+			(uuid "3e2ff640-60d5-4304-9711-13291932598e")
+		)
+		(pin "8"
+			(uuid "840baed3-0dce-460a-b92c-f59c1b2d5d69")
+		)
+		(pin "9"
+			(uuid "cc19edcb-6c53-4116-a659-244ce0ebebfe")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 106.68) (xy 240.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4fb227-b258-44a1-935c-05566b36964a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78311c2c-67ba-421f-abea-653813262f67")
+		(property "Reference" "#PWR901"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d72287-ebdd-48d2-b7f6-1ab74182bfc1")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3012fe10-e691-47a7-a492-bc18976a3916")
+	)
+	(label "ENC1_SW"
+		(at 232.41 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44571c06-f27b-4ff5-9f7b-4743dcfd7649")
+	)
+	(wire
+		(pts
+			(xy 232.41 111.76) (xy 240.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6735a4a-17c4-4e8d-a3a7-7a1226fdec73")
+	)
+	(label "ENC2_SW"
+		(at 232.41 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdf9280c-b16b-479b-9dd0-ef628a862c13")
+	)
+	(wire
+		(pts
+			(xy 232.41 114.3) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bb3150-8955-4c4d-934a-9ae38844e936")
+	)
+	(label "ENC3_SW"
+		(at 232.41 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cae47f7a-f9ca-4dc7-b2f0-6e0116832f2c")
+	)
+	(wire
+		(pts
+			(xy 232.41 116.84) (xy 240.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3c0534-e494-4ee7-8a5c-b34fcf7f676f")
+	)
+	(label "ENC4_SW"
+		(at 232.41 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d52f15e-e76f-4620-8f45-2eca32594fb8")
+	)
+	(no_connect
+		(at 240.03 119.38)
+		(uuid "f1e8e3a9-a205-4cbe-9ea8-4b6fa5279cd4")
+	)
+	(no_connect
+		(at 240.03 121.92)
+		(uuid "51fdb84d-a19d-43aa-9159-dc2cd0ad16f0")
+	)
+	(no_connect
+		(at 240.03 124.46)
+		(uuid "50a1d779-4b57-4609-a982-e95e99fd157a")
+	)
+	(no_connect
+		(at 240.03 126.98)
+		(uuid "0557885b-c697-4b37-834b-7b2773178dcb")
+	)
+	(wire
+		(pts
+			(xy 232.41 132.08) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812a6110-eebb-437c-8136-2444f1cf0f56")
+	)
+	(global_label "165_SL"
+		(shape input)
+		(at 232.41 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cca3df3a-8c83-4112-b889-32d1967b934a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 240.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff189d14-58f9-475e-9c4e-15fbdd88987b")
+	)
+	(global_label "165_CLK"
+		(shape input)
+		(at 232.41 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb62a46a-011e-4c28-88d4-4e474f5ae529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 232.41 139.7) (xy 240.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830ad63b-0bb0-49bc-a2f3-dd727fbdf736")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414f9275-9ceb-462d-8178-f22057b6e859")
+		(property "Reference" "#PWR902"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cde9466-61fe-4241-9695-f76a7727f6e8")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	
+		(wire
+		(pts
+			(xy 252.73 147.32) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303b10ae-52dc-4635-8331-1978173cf7b6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc1b7d0b-4cf3-46f7-aa44-5d17ab9cc9f5")
+		(property "Reference" "#PWR904"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f92d363d-838d-4d06-adae-0b1f7cc1f4a0")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 265.43 106.68) (xy 273.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313a9b1e-3f11-491e-93cf-913f5efb1af3")
+	)
+	(label "165_CHAIN"
+		(at 273.05 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37a18ffb-8288-4c10-9546-25f254eb405e")
+	)
+	(no_connect
+		(at 265.43 109.22)
+		(uuid "d64444dc-e9cf-4fe1-adc4-eed6cce24bd7")
+	)
+	(wire
+		(pts
+			(xy 232.41 50.8) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8e80a1-3b29-474d-85f7-80ff20083e3f")
+	)
+	(label "165_CHAIN"
+		(at 232.41 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fae1883e-e83c-484a-ac8d-755c3c163541")
+	)
+																					(symbol
+		(lib_id "My_Parts:PEC11R")
+		(at 70 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "595ca59c-ae48-4101-bd0a-72939ff168bb")
+		(property "Reference" "ENC1"
+			(at 70 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e75ab3-498a-4b8a-b3db-0cb7f309c7e3")
+		)
+		
+		
+		
+		
+		
+		
+		
+		(pin "2"
+			(uuid "555e005e-3d7a-4de3-9478-875fdae75a62")
+		)
+		(pin "3"
+			(uuid "242bcfba-bf00-43ac-80e4-6353b3d4061c")
+		)
+		(pin "4"
+			(uuid "4f841048-21d5-4ec0-94c7-fedf3878c6ce")
+		)
+		(pin "5"
+			(uuid "080f152c-c2f0-4163-9e52-40765006c3ed")
+		)
+		
+		
+		
+		
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "ENC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 57.3 164.92) (xy 62.38 164.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37cee7f-bbce-4359-ad32-e1c978bdf260")
+	)
+	(global_label "ENC1_A"
+		(shape input)
+		(at 57.3 164.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73cbd564-177a-4a2f-8244-c49d4544ab4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.3 164.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 57.3 170) (xy 62.38 170)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3465c8ca-fccf-4f49-b2fe-1b6033e27324")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.3 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d125903c-92af-46ac-8c8c-e481d5333d25")
+		(property "Reference" "#PWR909"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18d2a937-95ef-4731-ad28-c14bb341ed8a")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 57.3 175.08) (xy 62.38 175.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765071dc-8a97-4069-8612-b14de1af6310")
+	)
+	(global_label "ENC1_B"
+		(shape input)
+		(at 57.3 175.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "300b84d5-5996-4d9b-a27d-d004f10938bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.3 175.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 77.62 167.46) (xy 82.7 167.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d6576c-51a3-4e38-93e3-b61184410941")
+	)
+	(label "ENC1_SW"
+		(at 82.7 167.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f894ba9-e5d9-40b5-a8c7-54ea50ffd11a")
+	)
+	(wire
+		(pts
+			(xy 77.62 172.54) (xy 82.7 172.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f076df1-f408-4892-9b05-fa0a078ec231")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.7 172.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c205962c-1a28-4ada-ba26-19c06e896265")
+		(property "Reference" "#PWR910"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46574f86-9aa2-4ca5-a261-1303918f10af")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e00aa2-af3e-42f3-885e-f3057c31d478")
+		(property "Reference" "R25"
+			(at 50 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7666cebb-082e-439c-a906-8e7b84833606")
+		)
+		(pin "2"
+			(uuid "b9640528-1e6f-452f-9166-364ee4ddc18c")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 48 148.19) (xy 48 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ce37fb-84b2-4703-b911-9f02fef83e32")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 48 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e314df12-57fa-425f-9a9a-618f89aff72e")
+		(property "Reference" "#PWR911"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3efc5850-11b3-41f2-8f25-6ac2e3069b9e")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR911")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 48 155.81) (xy 48 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99598bcd-50d9-40fd-9d4a-960cc1260d7a")
+	)
+	(global_label "ENC1_A"
+		(shape input)
+		(at 48 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "456a40a6-e9f4-4361-8de7-19ca98b5d09e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efa9228-afc6-4cfe-b09f-4ce790f8491c")
+		(property "Reference" "R26"
+			(at 94 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9edcb8-72b5-4791-942d-e5f57bf7aba6")
+		)
+		(pin "2"
+			(uuid "df3f6ea3-8b6c-4a69-b31b-1949da470433")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 92 148.19) (xy 92 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e160d25-3513-483f-9286-8b8590803946")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22bdbe1-85c4-4729-a917-6cf8aa482fde")
+		(property "Reference" "#PWR912"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7675dfd-756c-4e15-b195-552dd23e788b")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR912")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 92 155.81) (xy 92 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d16d64c-31c5-4ad2-96b9-d5cf317e9d47")
+	)
+	(global_label "ENC1_B"
+		(shape input)
+		(at 92 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9785f292-be40-49d5-86b9-07919456f9d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Parts:PEC11R")
+		(at 120 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12e6a0b6-a335-439c-8347-0d634cc1491b")
+		(property "Reference" "ENC2"
+			(at 120 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b53a7bc-a6d1-46e9-b200-a2be3360b48d")
+		)
+		
+		
+		
+		
+		
+		
+		
+		(pin "2"
+			(uuid "64042dfd-201e-4ff5-8835-6ccb3d09e2a3")
+		)
+		(pin "3"
+			(uuid "a6e77d1b-58b0-4d82-a788-f319762f0e23")
+		)
+		(pin "4"
+			(uuid "8d6a1fb9-8faf-44db-9496-e5c9e9091bcf")
+		)
+		(pin "5"
+			(uuid "7fdd87fd-b571-4c66-9cb0-da901dff1db1")
+		)
+		
+		
+		
+		
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "ENC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 107.3 164.92) (xy 112.38 164.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f70872-cdd2-4acc-84c0-8cec8be01cfe")
+	)
+	(global_label "ENC2_A"
+		(shape input)
+		(at 107.3 164.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3865e7e7-eded-45f8-9099-eb2c5377c75f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.3 164.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 107.3 170) (xy 112.38 170)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8447c018-aad6-4e9d-b783-5d460a039650")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.3 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1f3c9e-81cb-4bef-a209-ba1b26641260")
+		(property "Reference" "#PWR913"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4a1bfff-b104-4877-b878-5b77b90bc7ac")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR913")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 107.3 175.08) (xy 112.38 175.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40125308-5d2b-4ea8-b8a4-1afbbb98da7b")
+	)
+	(global_label "ENC2_B"
+		(shape input)
+		(at 107.3 175.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "229da30e-833d-4f93-bb56-98b05594b16e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.3 175.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 127.62 167.46) (xy 132.7 167.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981a7326-4edb-4d82-bfeb-d1729f0cc9ec")
+	)
+	(label "ENC2_SW"
+		(at 132.7 167.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab9bfcc4-9787-4bc0-865b-cdb2277810c7")
+	)
+	(wire
+		(pts
+			(xy 127.62 172.54) (xy 132.7 172.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a4c25f-1c69-4237-b1fd-a6b0fbf7d59f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.7 172.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec5da39-bb84-4cc7-b7df-2afb6fcf561f")
+		(property "Reference" "#PWR914"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9011e46f-da46-430d-9fd3-def20d536184")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR914")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 98 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43331ff0-2c5c-4ce4-abed-fcf78ce0b73e")
+		(property "Reference" "R27"
+			(at 100 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20ea690-2cd6-461f-9ce9-01312fa3198a")
+		)
+		(pin "2"
+			(uuid "59dcb997-f549-403e-a9df-7adb9126125b")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 98 148.19) (xy 98 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d360f8ae-835d-4351-8f38-1ec0f8a14e66")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 98 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76884cbd-7d5e-49b3-85a2-e51ca7f21894")
+		(property "Reference" "#PWR915"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1acfa431-9468-403b-88c3-f8d243f3e116")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR915")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 98 155.81) (xy 98 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959563f8-8dc9-425e-b9f9-fe42e07d3956")
+	)
+	(global_label "ENC2_A"
+		(shape input)
+		(at 98 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21b0cfef-b0ac-4901-b8a0-62ed90b1a182")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3af9e658-a72e-41b8-a096-a1b9fcefaf96")
+		(property "Reference" "R28"
+			(at 144 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da0ed7e5-fcad-48b6-b7f2-a9bd58700087")
+		)
+		(pin "2"
+			(uuid "aaecd456-2621-4913-8dc9-36dc557bc4e9")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142 148.19) (xy 142 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a664189-749c-4489-9fe1-90e1aff07c7b")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 142 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37a0b52-67e2-42c5-9b3f-d676deba765c")
+		(property "Reference" "#PWR916"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35bbb598-768a-4138-ab93-44f37caff5f4")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR916")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142 155.81) (xy 142 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805eada2-ecee-4a43-bfe5-8f2df87b4f99")
+	)
+	(global_label "ENC2_B"
+		(shape input)
+		(at 142 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbccb398-cd22-4e2a-b4e6-9ec701c7e444")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Parts:PEC11R")
+		(at 170 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d9c882f-ce25-404c-a68f-d676427eff1c")
+		(property "Reference" "ENC3"
+			(at 170 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29afa19-a4ed-4d40-8440-68fb2ef41ac4")
+		)
+		
+		
+		
+		
+		
+		
+		
+		(pin "2"
+			(uuid "677c1c2d-92f8-4f02-b5e4-6070e1734b42")
+		)
+		(pin "3"
+			(uuid "5dac6b9a-6c84-4dbf-833f-44b881b6b870")
+		)
+		(pin "4"
+			(uuid "d9a2fd97-fe63-40a7-a85d-e1f166a306f9")
+		)
+		(pin "5"
+			(uuid "e3780177-5383-41cb-8189-6ca3ddbb8f6d")
+		)
+		
+		
+		
+		
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "ENC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.3 164.92) (xy 162.38 164.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ed7bc2-0966-4b62-a3b9-e75782f21618")
+	)
+	(global_label "ENC3_A"
+		(shape input)
+		(at 157.3 164.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2c124d3-e678-4f71-afd7-14e8cfd2330c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3 164.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.3 170) (xy 162.38 170)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a501e44b-56b8-430e-ae8d-ceb7294e9c36")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.3 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02303d5e-b98f-4f3b-b72d-9d84f55c73de")
+		(property "Reference" "#PWR917"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c75ba01-9d7f-4856-818d-9dad0be125ee")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR917")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.3 175.08) (xy 162.38 175.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e655b878-82c0-46c5-8d8f-24c086e2ddcd")
+	)
+	(global_label "ENC3_B"
+		(shape input)
+		(at 157.3 175.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bf5f436-8ba3-4648-802f-ea8a59afaae8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3 175.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 177.62 167.46) (xy 182.7 167.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c318d007-a87a-47cd-a74c-d46d07f80f3b")
+	)
+	(label "ENC3_SW"
+		(at 182.7 167.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9941c215-a34a-4673-9d2c-7d60a183675e")
+	)
+	(wire
+		(pts
+			(xy 177.62 172.54) (xy 182.7 172.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcc9b08-8a12-49d7-9f4a-c817126dab6b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.7 172.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f8e8c7-8d0e-4588-8a7b-190925aaabca")
+		(property "Reference" "#PWR918"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9513422b-a4d2-4cc8-883a-a7fd1604c75a")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR918")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6d6e12-bda7-44ef-8722-6e5b01a4e9cd")
+		(property "Reference" "R29"
+			(at 150 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a91d84-202c-41e7-ac52-f7f8b7de8c9b")
+		)
+		(pin "2"
+			(uuid "4d13e0af-8c46-46c8-8ba9-1badb2374f56")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 148 148.19) (xy 148 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672ad377-c647-4c7a-a0d1-7d16c4c21261")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 148 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7081a608-b51b-4ca2-9ab0-6f7ea88abe7d")
+		(property "Reference" "#PWR919"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f6b3e01-f7af-4732-a76e-06543d98fbb6")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR919")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 148 155.81) (xy 148 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1a858b-4215-4e51-96f6-ac727c00b384")
+	)
+	(global_label "ENC3_A"
+		(shape input)
+		(at 148 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b826a098-28cc-46b1-aaa8-889df79e56c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ebf5f7-c135-48c2-bd83-4f4d2b58dbdd")
+		(property "Reference" "R30"
+			(at 194 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b2296bf-9e40-47fc-8c7a-953ff032d604")
+		)
+		(pin "2"
+			(uuid "66aac43d-86f4-4437-b784-3a132c982d92")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192 148.19) (xy 192 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69886160-574e-4b12-bda7-46ad30fe59f7")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 192 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac51aa7-7d25-44f7-8ff9-080948035eca")
+		(property "Reference" "#PWR920"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14143e8-d15b-4e23-b1c9-47adf8299a5f")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR920")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192 155.81) (xy 192 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8512f92-aa20-48ef-8c6a-ef5c531c5d01")
+	)
+	(global_label "ENC3_B"
+		(shape input)
+		(at 192 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbfd6a2e-2038-4e47-a595-d2cd3e697080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Parts:PEC11R")
+		(at 220 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cce9c157-72f9-4a31-a8dc-721f36901253")
+		(property "Reference" "ENC4"
+			(at 220 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEC11R-4220F-S0024"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c6cf1f2-8db2-4dc7-9d0b-f98669cb5ecc")
+		)
+		
+		
+		
+		
+		
+		
+		
+		(pin "2"
+			(uuid "1a319dd3-8271-447f-afa2-9651543f3e80")
+		)
+		(pin "3"
+			(uuid "d63416ac-4ad9-417a-840d-f5fc8f1120d0")
+		)
+		(pin "4"
+			(uuid "aa3e2d2f-b07c-4137-b093-3712994d2f1b")
+		)
+		(pin "5"
+			(uuid "de0590f8-c410-45ef-a28c-5283ab95c218")
+		)
+		
+		
+		
+		
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "ENC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.3 164.92) (xy 212.38 164.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf49564d-195d-4252-aaf6-d331530b2d55")
+	)
+	(global_label "ENC4_A"
+		(shape input)
+		(at 207.3 164.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "463dd8a8-ff61-4d9b-ac40-35f8faa93165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3 164.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.3 170) (xy 212.38 170)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4087d3aa-eb33-42ff-be31-9823bb97dc20")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.3 170 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01863905-f3b4-46c6-8674-a38e40a6a888")
+		(property "Reference" "#PWR921"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c981b8-cf90-4527-b4e7-d57c5f5c3403")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR921")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 207.3 175.08) (xy 212.38 175.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bbcd33-1f76-4e90-9fb2-e446faa88990")
+	)
+	(global_label "ENC4_B"
+		(shape input)
+		(at 207.3 175.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79298023-7073-4eef-8f76-c7eed1faf6d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3 175.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 227.62 167.46) (xy 232.7 167.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3af5c87-8dd0-499f-ae5a-7330d5c34d0a")
+	)
+	(label "ENC4_SW"
+		(at 232.7 167.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3faed5d-c09e-4617-a009-eea32014efd6")
+	)
+	(wire
+		(pts
+			(xy 227.62 172.54) (xy 232.7 172.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938222db-7829-41cc-942b-d1a810e39f77")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.7 172.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e95733b-9f6a-4cd8-a3c3-adead94d43a0")
+		(property "Reference" "#PWR922"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a49a5544-3469-43b9-8783-c531ab01d226")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR922")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a90644a-baab-4a6e-bf65-5940661f787c")
+		(property "Reference" "R31"
+			(at 200 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abaad026-6278-418a-9fc9-f5a65dbf6028")
+		)
+		(pin "2"
+			(uuid "fa5a0356-d3e1-4963-8d4d-53f5d5c9a2ee")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 198 148.19) (xy 198 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803b9b2f-c846-44a0-8454-8b2f0a7450e2")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 198 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9fac8a4-3f1e-4242-b40b-817325738aac")
+		(property "Reference" "#PWR923"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb69fc31-e883-44b9-991d-6e980ff862f8")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR923")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 198 155.81) (xy 198 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf80dce-560b-4eb3-a858-75d8c3430bb8")
+	)
+	(global_label "ENC4_A"
+		(shape input)
+		(at 198 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56d97983-ed09-4bb6-9009-a334f6654c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dafa0ed3-fbb7-43b6-a6bf-a0921edc5adc")
+		(property "Reference" "R32"
+			(at 244 146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37ca6f62-9158-45a9-848c-dd03ed08a234")
+		)
+		(pin "2"
+			(uuid "fd7b4427-7020-43e0-8263-6d86ad82e101")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 242 148.19) (xy 242 145.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1e9175-0471-4faa-b3f8-33c7e307008b")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 242 145.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e2e07d-005d-49f3-a8ff-b89b90a626e3")
+		(property "Reference" "#PWR924"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b3afb0-2540-4e37-9c17-7aee61222f48")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR924")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 242 155.81) (xy 242 158.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fbf90a-726b-4ebe-8853-42e66c5a28c5")
+	)
+	(global_label "ENC4_B"
+		(shape input)
+		(at 242 158.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ad486f0-ab57-43e5-854a-028ae5498d88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242 158.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 45 140 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48e0ecd7-de4c-4b1d-a0e5-f997300d077d")
+		(property "Reference" "J10"
+			(at 47 132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 26.162 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		
+		
+		
+		(pin "2"
+			(uuid "286ef2cb-c138-457e-9df5-f698de8886a6")
+		)
+		
+		(pin "3"
+			(uuid "fb28d106-218a-4ee6-8d45-dc7acf6c6c7f")
+		)
+		(pin "4"
+			(uuid "e3d27a07-41d9-42af-a2d5-57d04cd25684")
+		)
+		(pin "1"
+			(uuid "4c755591-8702-4358-bbe3-b39f57a0cd7b")
+		)
+		(instances
+			(project ""
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 137.46) (xy 39.92 137.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd319765-e528-45de-8e31-00a294c5534e")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 34.84 137.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b9326d-c9fb-44a0-851c-a87afb4ba7d3")
+		(property "Reference" "#PWR925"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd88d2c4-3e9f-4b51-a039-259ad52f4265")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR925")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 140) (xy 39.92 140)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e206c96-e8f8-4d39-bb1a-389a940b378d")
+	)
+	(global_label "ADC2_IN12"
+		(shape input)
+		(at 34.84 140 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbb7dc18-398d-4111-8d4c-b272698a9f52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.84 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 142.54) (xy 39.92 142.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c274d47-6c24-42b4-b9df-d5e2a03464dd")
+	)
+	(global_label "ADC2_IN1"
+		(shape input)
+		(at 34.84 142.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7d02afb-2675-46eb-84ef-30e09e7d2a78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.84 142.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 145.08) (xy 39.92 145.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b2a692-dba5-4406-a81e-a024b0c5a50d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.84 145.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e9bc0c-6c19-454c-9427-236a0c799132")
+		(property "Reference" "#PWR926"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9d7b3cb-9ac1-4c5b-b2d3-b04cb9145138")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR926")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 45 168 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ac1796-506b-4ca5-a71a-7c2f57c12a38")
+		(property "Reference" "J11"
+			(at 47 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 26.162 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		
+		
+		
+		(pin "2"
+			(uuid "370cd886-9ccc-48d5-a244-9fb0c99d01a6")
+		)
+		
+		(pin "3"
+			(uuid "5ca70d08-dc8d-4a58-8391-35d830da1069")
+		)
+		(pin "4"
+			(uuid "fbf90f3f-0e58-46d8-a6fa-6ba34d3d6e85")
+		)
+		(pin "1"
+			(uuid "e98a6cc2-c0ef-4e09-9b9e-2b66e3ee7ba4")
+		)
+		(instances
+			(project ""
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 165.46) (xy 39.92 165.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb67aec-24eb-44f4-8325-d4631fbc888b")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 34.84 165.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e625c0a-ed23-4662-8be7-583dbc6ab9a2")
+		(property "Reference" "#PWR927"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6655915b-2191-4025-915f-7e46bb7a6293")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR927")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 168) (xy 39.92 168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d62c264-8d4f-47b6-a942-382d0c62c467")
+	)
+	(global_label "ADC2_IN17"
+		(shape input)
+		(at 34.84 168 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7ed98ee-e05d-4f98-8f8f-8b2a5e0b1d49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.84 168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 170.54) (xy 39.92 170.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c88743-6b03-4c99-8a88-f5c7272afe2d")
+	)
+	(global_label "ADC2_IN13"
+		(shape input)
+		(at 34.84 170.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89071a61-3925-43e4-9542-46c7e56dbd67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.84 170.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 34.84 173.08) (xy 39.92 173.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dcf597-6be2-4b0c-8411-5325d5b6dd0b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.84 173.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f641884-537c-4f6c-88d2-caf884458f32")
+		(property "Reference" "#PWR928"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "184ff5c8-6784-4e00-a573-39ac0c9d9cf3")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR928")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 246.38 99.06) (xy 252.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3363b82f-3944-4808-8f44-356336c48285")
+	)
+	(wire
+		(pts
+			(xy 246.38 93.98) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bbf596-4514-4c61-9b2c-6cfc235e9bc0")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 246.38 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5150e1c-bb29-4b5d-9a69-f88f8b62c2f1")
+		(property "Reference" "#PWR950"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c48a356-cf82-40f1-b82a-86a9ba30fe93")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR950")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "Device:R")
+		(at 192 100 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484977a6-6f61-4d38-b7d0-1181a70d9eed")
+		(property "Reference" "R21"
+			(at 227.33 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c16e420-c412-44eb-98a5-0849af8c9c04")
+		)
+		(pin "2"
+			(uuid "e87e7662-e746-4caa-bf2a-fdadb5ac12f1")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192 96.19) (xy 192 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502eda35-3839-405a-813e-2615b9e2edde")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 192 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bddcb36-da3f-49fb-8dfb-28c1db5aac7c")
+		(property "Reference" "#PWR960"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c02f6c-2112-43ab-81ed-a9ae2dfa1f88")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR960")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 192 103.81) (xy 192 106.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59dfe2e-1462-4dca-828c-7f669f64a472")
+	)
+	(label "ENC1_SW"
+		(at 192 106.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3e5d309-a692-448a-b57d-1434b20177d0")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204 100 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585d358e-f68e-4e71-881f-97c1bcb8a75e")
+		(property "Reference" "R22"
+			(at 227.33 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310a9410-5572-4a23-b5ab-554d19e5ec6e")
+		)
+		(pin "2"
+			(uuid "24ccf82f-706a-414a-afd2-bd0a5baebd06")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 204 96.19) (xy 204 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b514b821-f7d4-4aae-9cb2-e42be4536eaa")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 204 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8461de6c-d19d-4c23-b1e1-42d085a71a25")
+		(property "Reference" "#PWR961"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d308f23-4928-4733-b39a-24d3f11ec596")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR961")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 204 103.81) (xy 204 106.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ea38e6-76a0-4bcf-aebf-6151aea93b14")
+	)
+	(label "ENC2_SW"
+		(at 204 106.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d74388e-1767-4e9c-ae15-1c625d8c590d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 216 100 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9d24692-c784-4b53-94b3-98d3f91dc349")
+		(property "Reference" "R23"
+			(at 227.33 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e69f38dd-79ba-43e0-aa77-43e2ee5049de")
+		)
+		(pin "2"
+			(uuid "22ba9ec3-7c5c-450d-b9c5-30f2db1e8389")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 216 96.19) (xy 216 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2415aee-3c88-428a-aeb3-225a74196c92")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 216 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9701ab73-20eb-42da-adda-c34f0514282a")
+		(property "Reference" "#PWR962"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a323cb7-432d-44aa-beb5-d38f0a8f6502")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR962")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 216 103.81) (xy 216 106.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57be754-27b8-4e36-ae01-ce8a9ad320bc")
+	)
+	(label "ENC3_SW"
+		(at 216 106.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68d2093c-380c-4dcd-9ed1-f6db4c5f5902")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228 100 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34029eeb-d637-482e-aa1d-76494a72e519")
+		(property "Reference" "R24"
+			(at 227.33 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.552 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f590da9-6f9c-47e8-a434-84eda4964cb1")
+		)
+		(pin "2"
+			(uuid "f4174d53-ab36-40b6-8d3d-06351e0000d0")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 228 96.19) (xy 228 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc02bc9-d2ac-45f2-9a01-5a761a949989")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 228 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a60d4c-7e2a-4c5f-a46c-05541baf7d20")
+		(property "Reference" "#PWR963"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aeef4bc-5d51-4050-87b7-3193e3e813ca")
+		)
+		(instances
+			(project "KVL_STK"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/b501dded-0795-4b94-b467-4024a4d9920f"
+					(reference "#PWR963")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 228 103.81) (xy 228 106.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac03c15-a3e5-4485-84c5-0242b0d5b00c")
+	)
+	(label "ENC4_SW"
+		(at 228 106.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba4e76e7-55c8-4c69-876f-5cd464d1e3cd")
 	)
 )
