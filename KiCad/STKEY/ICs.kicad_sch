@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04_P1.00mm_Horizontal"
 			(at 127.72 88.6 0)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04_P1.00mm_Horizontal"
 			(at 169.63 59.33 0)
 			(hide yes)
 			(show_name no)
