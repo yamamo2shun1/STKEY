@@ -5,7 +5,8 @@
 	(uuid "868f46d4-ce7a-4a96-bb33-8a76e5eb710a")
 	(paper "A4")
 	(title_block
-		(title "C4NDY Board")
+		(title "STKEY")
+		(date "2026-11-25")
 		(rev "1")
 		(company "Yamamoto Works Ltd.")
 	)

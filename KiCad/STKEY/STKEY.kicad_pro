@@ -271,7 +271,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -719,7 +719,7 @@
     ],
     [
       "46e9677f-bc80-4441-a208-bb37e1ff93cf",
-      "ENCODER (3 ページ)"
+      "ENCODER"
     ],
     [
       "ab8e46a4-5cc9-4915-9c10-a714369a47ea",

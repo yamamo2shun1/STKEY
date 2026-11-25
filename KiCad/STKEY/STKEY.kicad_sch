@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "95d3b5cf-f65f-442c-bf39-1d0330504361")
 	(paper "A4")
+	(title_block
+		(title "STKEY")
+		(date "2026-11-25")
+		(rev "1")
+		(company "Yamamoto Works Ltd.")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -15031,7 +15037,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "46e9677f-bc80-4441-a208-bb37e1ff93cf")
-		(property "Sheetname" "ENCODER (3 ページ)"
+		(property "Sheetname" "ENCODER"
 			(at 26.67 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)

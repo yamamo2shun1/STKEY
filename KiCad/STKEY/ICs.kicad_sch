@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "d3893908-fba0-410e-b6ff-9022dcc76db8")
 	(paper "A4")
+	(title_block
+		(title "STKEY")
+		(date "2026-11-25")
+		(rev "1")
+		(company "Yamamoto Works Ltd.")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC164"
 			(exclude_from_sim no)
