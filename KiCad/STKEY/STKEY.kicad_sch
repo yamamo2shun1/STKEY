@@ -15031,7 +15031,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "46e9677f-bc80-4441-a208-bb37e1ff93cf")
-		(property "Sheetname" "LEDs"
+		(property "Sheetname" "ENCODER (3 ページ)"
 			(at 26.67 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15122,7 +15122,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b501dded-0795-4b94-b467-4024a4d9920f")
-		(property "Sheetname" "ICs"
+		(property "Sheetname" "IC"
 			(at 26.67 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
