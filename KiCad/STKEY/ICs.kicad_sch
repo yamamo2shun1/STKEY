@@ -5668,8 +5668,10 @@
 		)
 		(uuid "ff843f4e-d369-4679-ad37-8f7b482c50ca")
 	)
-	(label "165_CHAIN"
+	(global_label "165_CHAIN"
+		(shape input)
 		(at 170.18 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,6 +5679,18 @@
 			(justify right bottom)
 		)
 		(uuid "fae1883e-e83c-484a-ac8d-755c3c163541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.9377 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "165_SL"
 		(shape input)
