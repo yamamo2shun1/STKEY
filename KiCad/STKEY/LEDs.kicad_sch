@@ -3223,30 +3223,6 @@
 		)
 		(uuid "b040ddc2-fd4a-448f-8394-4ab78bcaa2a6")
 	)
-	(global_label "165_CHAIN"
-		(shape output)
-		(at 125.73 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e344e403-3851-4c76-9655-7f66acd543d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9723 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "ENC4_SW"
 		(at 77.47 152.4 180)
 		(effects
@@ -3350,6 +3326,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "165_CNAIN"
+		(shape output)
+		(at 125.73 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a84b743-1c10-43bc-9d92-399897985775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.9357 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
