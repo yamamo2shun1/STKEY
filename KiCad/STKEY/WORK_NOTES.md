@@ -13,7 +13,17 @@ C4NDY の KVL_STK プロジェクトをコピーして改名したもの。
 | STKEY.kicad_sch（ルート） | KVL_STK.kicad_sch | キーマトリクスそのまま。MCU シートのブロックを追加済み（ピンなし） |
 | ICs.kicad_sch | KVL_STK ICs シート | 未編集（次段階で編集） |
 | LEDs.kicad_sch | KVL_STK LEDs シート | そのまま使う（編集不要の見込み） |
-| MCU.kicad_sch | C4NDY_mainboard の C4NDY.kicad_sch | 未編集（次段階で編集） |
+| MCU.kicad_sch | C4NDY_mainboard の C4NDY.kicad_sch | **編集済み（2026-11-25）**: 下記参照 |
+
+## MCU シート編集結果（2026-11-25、tools/sch_audit.py で検証済み）
+
+- 削除: U4 TPS2116、J9 外部電源コネクタ、J1 QSPI 引き出しコネクタ、QSPI ラベル 12 個
+- グローバルラベル化＋改名: SAI_BCLK→ENC1_A(PB3)、SAI_MCLK→ENC1_B(PB4)、SAI_DOUT→ENC2_A(PB5)、SAI_LRCLK→ENC2_B(PB6)、I2C_SDA→ENC3_A(PA8)、I2C_SCL→ENC3_B(PA9)、SAI_DIN→ENC4_A(PA10)、ADC1_IN2→ENC4_B(PA1=旧ポット)
+- グローバルラベル化（改名）: UART_RX→PA15、UART_TX→PA2、ADC3_IN5→PB13、SPI_SCK→PF1、SPI_MISO→PB14、SPI_MOSI→PB15
+- グローバルラベル化（同名）: ADC2_IN1(PA0)、ADC2_IN12(PB2)、ADC2_IN13(PA5)、ADC2_IN17(PA4) = スティック ADC
+- 新設: スキャン 5 ピン（PC13=164_CLK、PC14=164_A、PC15=165_CLK、PB7=165_SL、PB9=165_QH）は現行メインボード回路図で no_connect だったため、no_connect を外しスタブ配線＋グローバルラベルを追加
+- 残置（GUI 整理時に判断）: J2/J3/J5/J6 コネクタシンボルとその先のスタブ（ネットはグローバル化済みなので電気的には無害）、QSPI ピンのスタブ配線
+- 監査で確定した実配線（.ioc の要約と一部相違）: スティックは RV2: X=PB2 / Y=PA0、RV3: X=PA4 / Y=PA5。ポットは PA1。USER_SW=PB10(SW2)、LED0=PB12
 
 ## 接続方式の調査結果（2026-11-25）
 

@@ -42,7 +42,7 @@
 | PA11 / PA12 | USB DM / DP |
 | PA13 / PA14 | SWD |
 | PA15 | LED 駆動（TIM8_CH1、ICLED チェーン） |
-| PA0 / PA1 / PA4 / PA5 | スティック ADC（左右 X/Y、現行チャネル維持） |
+| PA0 / PB2 / PA4 / PA5 | スティック ADC（X/Y。2026-11-25 回路図監査で確定: RV2 の X=PB2・Y=PA0、RV3 の X=PA4・Y=PA5。旧ポットは PA1） |
 | PB7 / PB9 / PC15 | 74HC165 系（SL / QH / CLK） |
 | PC13 / PC14 | 74HC164 系（CLK / A） |
 | PB10 | USER_SW |
@@ -50,7 +50,7 @@
 | PF0 | HSE 入力 |
 
 ### 新規割り当て（エンコーダー A/B ×8）
-旧 SAI（PB3〜PB6）、旧 I2C（PA8 / PA9）、旧 QSPI（PB0 / PB1）を使う。
+旧 SAI（PB3〜PB6、PA10）、旧 I2C（PA8 / PA9）、旧ポット（PA1）を使う。旧 QSPI のピン（PA3 / PA6 / PA7 / PB0 / PB1 / PB11）は予備のまま残す。
 
 | ピン | 信号 |
 |---|---|
@@ -60,13 +60,15 @@
 | PB6 | ENC2_B |
 | PA8 | ENC3_A |
 | PA9 | ENC3_B |
-| PB0 | ENC4_A |
-| PB1 | ENC4_B |
+| PA10 | ENC4_A |
+| PA1 | ENC4_B |
 
 ポーリングは GPIOB と GPIOA の 2 ポート読みで足りる（PB 側に 6 本、PA 側に 2 本）。
 
 ### 予備（未接続で残す）
-PA2 / PA3 / PA6 / PA7 / PA10 / PB2（旧ポット）/ PB8 / PB11（旧 QSPI NCS）/ PF1 ほか。一体化後もピンには十分な余裕がある。
+PA3 / PA6 / PA7 / PB0 / PB1 / PB11（旧 QSPI）ほか。一体化後もピンには十分な余裕がある。
+
+※ 2026-11-25 の回路図監査で判明した注意点: 現行メインボード回路図ではスキャン系 5 ピン（PC13 / PC14 / PC15 / PB7 / PB9）は未接続（no_connect）で、キーボード基板側フットプリントとの対応だけで繋がる前提になっていた。STKEY の MCU シートではこの 5 ピンに配線とグローバルラベルを新設済み。また USER_SW は PB10（モジュール上の SW2）、LED0 は PB12（モジュール上のステータス LED）で、いずれも従来どおり MCU まわりに残る。
 
 ## 4. キー／LED／スキャン（KVL_STK からの差分）
 
