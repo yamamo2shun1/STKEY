@@ -2475,6 +2475,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2d11225e-a517-4f89-8c40-61e3280b3ba6")
 			(effects
 				(font
@@ -2634,6 +2635,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "422d5b4f-13eb-4e7c-92f7-9bc2589aa52c")
 			(effects
 				(font
@@ -3343,6 +3345,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3b3f40e3-9284-4879-91f6-e16e68f9aadc")
 			(effects
 				(font
@@ -5092,6 +5095,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "46f2d145-c9c3-4a97-9726-4f45e38378c1")
 			(effects
 				(font
@@ -6093,6 +6097,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c048d141-abe5-4a61-b18f-1682595a9ab2")
 			(effects
 				(font
@@ -9608,6 +9613,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f1b81ced-40dc-4db0-8abc-2c32dd3565eb")
 			(effects
 				(font
@@ -13720,6 +13726,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8a8975b7-8276-49f7-b334-5cdc7662514e")
 			(effects
 				(font
@@ -14864,6 +14871,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9c636222-c767-443b-84c3-4cf2587eeb8c")
 			(effects
 				(font
