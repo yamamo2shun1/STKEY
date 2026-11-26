@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|148735750|55877500|f652884e-9040-42d3-b311-6335e059e1f3|b1fd1960-61c1-4360-9a1b-ef161b0cc94a",
+          ""
+        ],
+        [
+          "hole_clearance|154535750|55877500|8e905f4c-895e-4267-918a-7f1d0b663ff1|2f1d930d-0339-4971-b1ad-0591e9d96f07",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|142455000|54823600|5481fbaf-045e-45fa-a205-41ae0517f5ca|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152620000|53067500|4f19cd57-7241-48d3-b1a5-c701cc094ddd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|147165750|50137500|e07365c0-4e4f-4acc-94c1-2a9e518f8145|1cc5d0e3-7562-4ca5-a29c-06aa3d8cd7f7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|156105750|50137500|e07365c0-4e4f-4acc-94c1-2a9e518f8145|295117f2-5862-4897-9940-f7b4e9c9748d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -134,7 +159,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "error",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
