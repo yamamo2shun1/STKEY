@@ -175,6 +175,13 @@ PA3 / PA6 / PA7 / PB11（旧 QSPI）、PA1（旧ポット）、PA10（旧 SAI）
 - 最終的にパッドへの引き出しを含めて全区間を幅 0.270 mm とした。銅箔間隔 0.180 mm の並走区間は J3 から FB2／FB3 側が 1.300 mm、FB2／FB3 から U6 側が 5.600 mm。FB2／FB3 から U6 までの長さ差は 0.030 mm、J3 の合流部を含めた長さ差は挿入向きにより 0.004 mm または 2.694 mm。
 - `In2.Cu` の GND ゾーンを基板外形全体へ拡張した。充填後に銅箔が一つの連続した領域になり、USB 配線全長の直下を覆うことを確認した。内層の信号配線は 0 本。DRC の新規指摘 0 件、回路図との不一致 0 件、GND 接続の追加により未配線は 425 → 417 件。インピーダンスの実測と実機での USB 接続は未確認。
 
+### 優先順位2の実施結果（2026-11-26）
+
+- U6 の VDD 24／36 番は C90／C91 に `B.Cu` の局所ゾーンで接続した。VDD 48 番は C92 に、VBAT 1 番は C94 に配線した。C90／C91／C94 側から `In1.Cu` の VCC 面につなぎ、48 番と C92 は C93 の給電ビアを共用した。VSS と各コンデンサの GND は `In2.Cu` へ接続した。 [ST AN5093 §7.4](https://www.st.com/resource/en/application_note/an5093-getting-started-with-stm32g4-series--hardware-development-boards-stmicroelectronics.pdf)
+- VDDA は FB5 と C97／C98、VREF+ は FB4 と C95／C96 をそれぞれ配線し、U6 の 21／20 番へ接続した。C95／C96 と C97／C98 の GND はそれぞれ 0.50 mm の配線でまとめ、近傍のビアで `In2.Cu` の GND 面へ接続した。VSSA 19 番も同じ GND 面に接続した。 [ST AN5346](https://www.st.com/content/st_com/en/technical-documents/an5346-stm32g4-adc-use-tips-and-recommendations-stmicroelectronics.html)
+- X1 出力と U6 の PF0 に軸を合わせるため、R26 を X 方向へ 0.0025 mm、Y 方向へ 0.0200 mm 移動した。X1→R26 は 1.600 mm、R26→U6 は 1.638 mm で、どちらも `B.Cu` の直線とした。X1 と C101 の VCC／GND はそれぞれ `B.Cu` 上で 0.50 mm の配線で接続し、GND は両端のビアで `In2.Cu` の GND 面につないだ。 [Epson SG-310SCF データシート](https://download.epsondevice.com/td/pdf/brief/SG-310SDF_en.pdf)
+- 再充填後、HSE と USB の配線直下の GND 面、電源ピンとコンデンサ・内層の接続を確認した。基板全体の DRC はエラー 7 件、警告 350 件、未配線 314 件で、回路図との不一致は 0 件だった。HSE の起動・波形、電源波形、ADC ノイズは実機未確認。
+
 ### 優先順位3の実施結果（2026-11-26）
 
 - FB1 出力から U5 入力と C85～C87 の VBUS までは `B.Cu` の局所ゾーンで接続した。U5 出力と C88／C89 も `B.Cu` の局所ゾーンで接続した。U5 の GND ピン、放熱タブ、入出力コンデンサの GND は近傍の銅箔とビアで `In2.Cu` に接続した。 [MIC39100 データシート](https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDocuments/DataSheets/20005834A.pdf)
