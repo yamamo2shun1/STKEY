@@ -11738,103 +11738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 243.84 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de86ac6a-c5df-43df-a16d-6a1c7970fcae")
-		(property "Reference" "J4"
-			(at 243.84 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15910060"
-			(at 247.65 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My_Parts:Molex_15910060"
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "4f32584a-defb-4391-8983-3a0e029ccbd4")
-		)
-		(pin "1"
-			(uuid "087d6e1d-7ea6-47be-95c8-cf5e8f1ac53f")
-		)
-		(pin "2"
-			(uuid "54dec414-2f68-42b4-8644-1c20a4886e4d")
-		)
-		(pin "5"
-			(uuid "e203742b-1e69-46fd-a2de-9d301f0936ed")
-		)
-		(pin "3"
-			(uuid "8d48d8ae-3d4c-4651-8c27-305993601227")
-		)
-		(pin "6"
-			(uuid "b6e69f5a-f1af-42b2-8eb6-4fc2c3237cdd")
-		)
-		(instances
-			(project "C4NDY"
-				(path "/868f46d4-ce7a-4a96-bb33-8a76e5eb710a"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "STKEY"
-				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 184.15 73.66 0)
 		(unit 1)
@@ -12252,6 +12155,98 @@
 			(project "STKEY"
 				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 243.84 96.52 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec9f6dfa-47bb-4f25-baa4-1626466d02e1")
+		(property "Reference" "J4"
+			(at 243.84 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15910060"
+			(at 247.396 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9da02d62-c903-49f1-9e5c-f722b9e2cca5")
+		)
+		(pin "1"
+			(uuid "bc11efde-ddf4-4085-8ba8-9d4ac62ef260")
+		)
+		(pin "2"
+			(uuid "3589b54f-e79c-4c56-aa29-cb79eebeb11c")
+		)
+		(pin "5"
+			(uuid "b485dd09-1767-4072-8974-e34c439357fd")
+		)
+		(pin "3"
+			(uuid "d5033468-9591-42f2-95e5-742039cb8be6")
+		)
+		(pin "6"
+			(uuid "bdf6f299-b67b-4e16-bcfc-b58073aef91f")
+		)
+		(instances
+			(project "STKEY"
+				(path "/95d3b5cf-f65f-442c-bf39-1d0330504361/ab8e46a4-5cc9-4915-9c10-a714369a47ea"
+					(reference "J4")
 					(unit 1)
 				)
 			)
