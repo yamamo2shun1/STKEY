@@ -218,6 +218,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "134a250c-8a07-4c28-a79c-b8a1a2fc33f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/f0aedb05-badd-4561-a2a8-7687dc996195")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -741,6 +753,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bea59041-7d0e-44a4-9e56-5b34f84335b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/2ae28a42-06f4-4aca-b82e-fb5191bc0f52")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -1258,6 +1282,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C143797"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43c9321d-af11-41d8-87df-25dcc2780716")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/edb1f321-3b71-435d-b839-8f03c5556ab1")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -1762,6 +1798,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C143797"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "810bde84-e99b-4c05-9078-a59dee1664b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/f54d654a-8e17-461f-a289-8a86209de348")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -2101,6 +2149,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f61c3d69-2dd1-4330-a160-c6db0724b0fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/1d7dd955-b7d7-4cf3-b1cb-780158b63e10")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -2278,6 +2338,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "941ea529-721d-4218-a325-2abdfca3ca35")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2634,6 +2706,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c82780fc-b686-47b4-a09b-0fc0327cbb1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/54ac61a7-684a-44b3-9b13-8aff7f04cf89")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -2819,6 +2903,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12065"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf060916-fca1-4a45-b45d-892cac28a368")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3016,6 +3112,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C143797"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca7da632-c7ff-4b9d-b246-62fb173b3359")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3354,6 +3462,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3a8e18d-1903-4783-b196-134e225d187d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3714,6 +3834,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5860c9d6-9b1f-4f1b-9695-f4add57616e7")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4091,6 +4223,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "36d22a3e-1e66-45af-90fe-8b9a149c97cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/c0ac8520-0657-46ac-a75d-c695e6facdcc")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -4272,6 +4416,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23582654"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87ea3d29-2b49-4945-8352-b39fa9c374de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/46e9677f-bc80-4441-a208-bb37e1ff93cf/a38c5d8a-2ecd-4b5b-87f5-b56c7d75ea04")
 		(sheetname "/ENCODER/")
 		(sheetfile "LEDs.kicad_sch")
@@ -4444,6 +4600,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C143797"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff4351b6-508d-490c-a358-18f9315328b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13870,6 +14038,19 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C586557"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6fe43ce5-d2ff-42b9-8ed5-ef00fc83859f")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -54854,6 +55035,19 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C160455"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "99443fbd-8d3d-4601-b5ca-3ce5a785a2c0")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
