@@ -1261,7 +1261,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32G4:STM32G4A1CETx"
+		(symbol "MCU_ST_STM32G4:STM32G474CETx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1278,7 +1278,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32G4A1CETx"
+			(property "Value" "STM32G474CETx"
 				(at 5.08 -36.83 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1301,7 +1301,7 @@
 					(justify right)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g4a1ce.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474ce.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1312,7 +1312,7 @@
 					)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 112KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1333,7 +1333,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Arm Cortex-M4 STM32G4 STM32G4x1"
+			(property "ki_keywords" "Arm Cortex-M4 STM32G4 STM32G4x4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1355,7 +1355,7 @@
 					)
 				)
 			)
-			(symbol "STM32G4A1CETx_0_1"
+			(symbol "STM32G474CETx_0_1"
 				(rectangle
 					(start -12.7 -35.56)
 					(end 15.24 38.1)
@@ -1368,7 +1368,7 @@
 					)
 				)
 			)
-			(symbol "STM32G4A1CETx_1_1"
+			(symbol "STM32G474CETx_1_1"
 				(pin power_in line
 					(at -2.54 40.64 270)
 					(length 2.54)
@@ -9400,7 +9400,7 @@
 				)
 			)
 		)
-		(property "Value" "UB1611-HGN"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 60.96 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9456,7 +9456,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SNAPEDA_PN" "UB1611-HGN"
+		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
 			(at 59.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9492,7 +9492,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Gangyuan"
+		(property "MANUFACTURER" "Korean Hroparts"
 			(at 59.69 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9738,7 +9738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32G4:STM32G4A1CETx")
+		(lib_id "MCU_ST_STM32G4:STM32G474CETx")
 		(at 138.43 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -9759,7 +9759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G4A1CETx"
+		(property "Value" "STM32G474CET6"
 			(at 143.51 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +9782,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g4a1ce.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474ce.pdf"
 			(at 138.43 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10409,7 +10409,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM21PG221SN1"
+		(property "Value" "MPZ2012S221AT000"
 			(at 86.36 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
